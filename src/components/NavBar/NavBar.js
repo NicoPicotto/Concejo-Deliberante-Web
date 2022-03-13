@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, Container, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import img1 from '../../img/logo-01.png';
 import './NavBar.css';
 
@@ -8,7 +9,7 @@ const NavBar = () => {
 		<div>
 			<Navbar collapseOnSelect expand='lg' className='navbar-container'>
 				<Container>
-					<Navbar.Brand href='#home'>
+					<Navbar.Brand to='/'>
 						<img src={img1} className='navbar-logo' />
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
@@ -17,15 +18,15 @@ const NavBar = () => {
 						className='justify-content-end'
 					>
 						<Nav className='navbar-links'>
-							<Nav.Link href='#deets' className='navbar-link' variant='light'>
+							<Link to='/' variant='light' className='navbar-link-button'>
 								HOME
-							</Nav.Link>
-							<Nav.Link href='#deets' className='navbar-link'>
+							</Link>
+							<Link to='/institucional' variant='light' className='navbar-link-button'>
 								INSTITUCIONAL
-							</Nav.Link>
-							<Nav.Link href='#deets' className='navbar-link'>
+							</Link>
+							<Link to='/legislacion' variant='light' className='navbar-link-button'>
 								LEGISLACIÓN
-							</Nav.Link>
+							</Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
