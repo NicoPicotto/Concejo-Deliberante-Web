@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;410;900&display=swap');
+.navbar-container {
+	background-color: #eb164d;
+}
+
+.navbar-logo {
+	width: 20em;
+}
+
+.navbar-links {
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-link {
+	color: white !important;
+    margin-left: 1em;
+    font-weight: bold;
+}
