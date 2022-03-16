@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+//Firebase
+import { db } from './firebase/firebaseConfig';
+
 //Views
 import Home from './views/Home';
 import Institucional from './views/Institucional';
@@ -12,7 +15,7 @@ const App = () => {
 	return (
 		<Router>
 			<div className='App'>
-        <NavBar />
+				<NavBar />
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/institucional' element={<Institucional />} />
