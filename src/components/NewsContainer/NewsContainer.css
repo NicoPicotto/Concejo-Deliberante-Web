@@ -1,9 +1,10 @@
 .news-container {
 	display: flex;
 	width: 100vw;
+	flex-direction: column;
 	height: fit-content;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: space-around;
 	background-color: #5889c6;
     padding: 3em;
 }

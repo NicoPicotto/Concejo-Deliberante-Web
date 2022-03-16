@@ -5,7 +5,9 @@ import './NewsList.css';
 const NewsList = ({ data }) => {
 	return (
 		<div className='news-list-container'>
-      <News data={data}/>
+      {data.map((news) => {
+				return <News data={news} key={news.id} />;
+			})}
 		</div>
 	);
 };
