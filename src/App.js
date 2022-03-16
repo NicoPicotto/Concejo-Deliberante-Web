@@ -10,6 +10,7 @@ import Institucional from './views/Institucional';
 import Legislacion from './views/Legislacion';
 import Error from './views/Error';
 import NavBar from './components/NavBar/NavBar';
+import NewsDetailView from './views/NewsDetailView';
 
 const App = () => {
 	return (
@@ -20,6 +21,7 @@ const App = () => {
 					<Route path='/' element={<Home />} />
 					<Route path='/institucional' element={<Institucional />} />
 					<Route path='/legislacion' element={<Legislacion />} />
+					<Route path='/news/:id' element={<NewsDetailView />} />
 					<Route path='*' element={<Error />} />
 				</Routes>
 			</div>
