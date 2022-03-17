@@ -8,3 +8,14 @@
 	background-color: #5889c6;
     padding: 3em;
 }
+
+.news-container-button{
+	background-color: #eb164d !important;
+	border: none !important;
+	margin-top: 2em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.news-container-button:hover{
+    background-color: #b8143d !important;
+}

@@ -1,5 +1,6 @@
 .news-list-container{
     display: flex;
     width: 70vw;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

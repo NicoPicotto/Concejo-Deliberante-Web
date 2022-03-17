@@ -11,6 +11,7 @@ import Legislacion from './views/Legislacion';
 import Error from './views/Error';
 import NavBar from './components/NavBar/NavBar';
 import NewsDetailView from './views/NewsDetailView';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
 	return (
@@ -24,6 +25,7 @@ const App = () => {
 					<Route path='/news/:id' element={<NewsDetailView />} />
 					<Route path='*' element={<Error />} />
 				</Routes>
+				<Footer />
 			</div>
 		</Router>
 	);
