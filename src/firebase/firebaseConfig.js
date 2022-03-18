@@ -3,12 +3,13 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: 'AIzaSyCoNhOLJVufTqFjpYT39J4yhsKefBfCEOI',
-	authDomain: 'concejo-gc.firebaseapp.com',
-	projectId: 'concejo-gc',
-	storageBucket: 'concejo-gc.appspot.com',
-	messagingSenderId: '558064140393',
-	appId: '1:558064140393:web:e8b56bb03daa354b70e2f8',
+	apiKey: "AIzaSyD5YQufHPYpOI82YrQIrJHYQrqckqb0zpk",
+	authDomain: "cd-cabrera.firebaseapp.com",
+	projectId: "cd-cabrera",
+	storageBucket: "cd-cabrera.appspot.com",
+	messagingSenderId: "534251656453",
+	appId: "1:534251656453:web:7b890d6e2f1f73b829936c",
+	measurementId: "G-KKCWDWBW7N"
 };
 
 // Initialize Firebase

@@ -4,7 +4,14 @@
 }
 
 .navbar-logo {
-	width: 20em;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.navbar-logo:hover{
+	color:white;
 }
 
 .navbar-links {
