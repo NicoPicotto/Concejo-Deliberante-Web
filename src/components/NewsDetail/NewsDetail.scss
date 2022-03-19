@@ -1,0 +1,48 @@
+.news-detail{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 2em;
+
+    .news-detail-text{
+        width: 50vw;
+        
+        h1{
+            font-weight: bold;
+            font-size: 1.8vw;
+            margin-bottom: 1em;
+            background-color: $color-secundario;
+            width: fit-content;
+            padding: 0.5em;
+        }
+
+        p{
+            font-size: 1.2vw;
+            margin-bottom: 1em;
+        }
+
+        h3{
+            font-size: 1vw;
+            color: grey;
+            font-style: italic;
+            margin-bottom: 1em;
+        }
+
+        img{
+            width: 15vw;
+            margin-bottom: 1em;
+        }
+
+        .news-detail-button{
+            @include boton-primario;
+        }
+    }
+
+    .news-img-container{
+        width: 30vw;
+
+        img{
+            width: 100%;
+        }
+    }
+}

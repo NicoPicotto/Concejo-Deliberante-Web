@@ -8,18 +8,18 @@ import { Button } from 'react-bootstrap';
 const NewsContainer = () => {
 	const [newsData, setNewsData] = useState([]);
 	const [loading, setLoading] = useState(false);
-	const [moreNews, setMoreNews] = useState(3);
+	const [moreNews, setMoreNews] = useState(4);
 
 	//Función para cargar de a 3 noticias más
 	const loadMoreNews = () => {
-		setMoreNews(moreNews + 3);
+		setMoreNews(moreNews + 4);
 	};
 
 	useEffect(() => {
 		const getNews = async () => {
 			setLoading(true);
 			const docs = [];
-			const q = query(collection(db, 'news'), orderBy('date'), limit(moreNews));
+			const q = query(collection(db, 'news'), orderBy('date', "desc"), limit(moreNews));
 			const querySnapshot = await getDocs(q);
 			querySnapshot.forEach((doc) => {
 				docs.push({ ...doc.data(), id: doc.id });

@@ -4,12 +4,14 @@
 .navbar-container {
 	background-color: $color-primario;
 	width: 100vw;
+	margin-bottom: 2em;
 
 	.navbar-logo {
 		font-family: $fuente-primaria;
 		color: white;
 		text-decoration: none;
 		font-weight: bolder;
+		font-size: 1.2vw;
 	}
 
 	.navbar-logo:hover {
@@ -18,6 +20,7 @@
 
 	.navbar-links {
 		font-family: $fuente-primaria;
+		font-size: 1vw;
 	}
 
 	.navbar-link-button {
