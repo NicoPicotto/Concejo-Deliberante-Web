@@ -1,0 +1,16 @@
+@import '../../Theme.scss';
+
+.news-container {
+	display: flex;
+	width: 100vw;
+	flex-direction: column;
+	height: fit-content;
+	align-items: center;
+	justify-content: space-around;
+	background-color: $color-terciario;
+	padding: 3em;
+
+	.news-container-button {
+		@include boton-primario;
+	}
+}

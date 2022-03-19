@@ -1,13 +1,12 @@
 import React from 'react';
 import { Nav, Container, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import img1 from '../../img/logo-01.png';
-import './NavBar.css';
+
 
 const NavBar = () => {
 	return (
 		<div>
-			<Navbar collapseOnSelect expand='lg' className='navbar-container'>
+			<Navbar collapseOnSelect expand='lg' className='navbar-container' variant="danger">
 				<Container>
 					<Navbar.Brand to='/'>
 					<Link to='/' variant='light' className='navbar-logo'>

@@ -1,0 +1,39 @@
+@import '../../Theme.scss';
+
+.home-container {
+	display: flex;
+	padding: 2em;
+	height: 60vh;
+	width: 100vw;
+	justify-content: space-evenly;
+
+	.home-text-container {
+		display: flex;
+		width: 50vw;
+		flex-direction: column;
+		justify-content: center;
+
+		.home-title {
+			font-family: $fuente-primaria;
+			font-size: 2vw;
+			font-weight: bolder;
+			padding-bottom: 1em;
+		}
+
+		.home-text {
+			font-family: $fuente-primaria;
+			font-size: 1.3vw;
+			padding-bottom: 1em;
+		}
+		.home-dots {
+			width: 30%;
+		}
+	}
+
+	.home-img-container {
+		display: flex;
+		width: 25vw;
+		align-items: center;
+		justify-content: center;
+	}
+}

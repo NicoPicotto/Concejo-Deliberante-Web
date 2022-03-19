@@ -2,7 +2,6 @@ import React from 'react';
 import dots from '../../img/dots-01.png';
 import Lottie from 'lottie-react';
 import lottieHome from '../../Lottie/lf30_editor_diktondu.json';
-import './LandingHome.css';
 
 const options = {
 	animationData: lottieHome,

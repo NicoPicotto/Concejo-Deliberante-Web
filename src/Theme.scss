@@ -1,0 +1,18 @@
+//Colores
+$color-primario: #eb164d;
+$color-secundario: #febe39;
+$color-terciario: #5889c6;
+
+//Fuentes
+$fuente-primaria: 'Raleway', sans-serif;
+
+//Mixins
+@mixin boton-primario {
+	background-color: #eb164d !important;
+	border: none !important;
+	transition: 0.2s;
+
+	&:hover {
+		background-color: #b8143d !important;
+	}
+}

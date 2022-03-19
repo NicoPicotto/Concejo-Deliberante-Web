@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { collection, query, getDocs, limit, orderBy } from 'firebase/firestore';
-import './NewsContainer.css';
 import { db } from '../../firebase/firebaseConfig';
 import NewsList from '../NewsList/NewsList';
 import Loading from '../Loading/Loading';
