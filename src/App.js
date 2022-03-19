@@ -1,8 +1,6 @@
 import React from 'react';
+import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-//Firebase
-import { db } from './firebase/firebaseConfig';
 
 //Views
 import Home from './views/Home';

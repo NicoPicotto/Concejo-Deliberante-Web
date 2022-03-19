@@ -1,6 +1,5 @@
 import React from 'react';
 import logoMuni from '../../img/logomuni-01.png';
-import './Footer.css';
 
 const Footer = () => {
 	return (

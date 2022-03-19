@@ -1,0 +1,14 @@
+@import './components/NavBar/NavBar.scss';
+@import './components/News/News.scss';
+@import './components/NewsList/NewsList.scss';
+@import './components/NewsContainer/NewsContainer.scss';
+@import './components/Loading/Loading.scss';
+@import './components/LandingHome/LandingHome.scss';
+@import './components/Footer/Footer.scss';
+
+
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+}

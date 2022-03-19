@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;410;900&display=swap");
+.navbar-container {
+  background-color: #eb164d;
+  width: 100vw;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-container .navbar-logo {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-container .navbar-logo:hover {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar-container .navbar-links {
+  font-family: "Raleway", sans-serif;
+}
+.navbar-container .navbar-link-button {
+  color: white !important;
+  margin-left: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.2em;
+  position: relative;
+}
+.navbar-container .navbar-link-button:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #febe39;
+  transition: width 0.2s ease-out;
+}
+.navbar-container .navbar-link-button:hover:before {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.news-card-container {
+  box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.22);
+  display: flex;
+  margin: 1em;
+  width: 20vw !important;
+  font-family: "Raleway", sans-serif;
+  border: none !important;
+  border-radius: 1em !important;
 }
+
+.news-card-img {
+  border-radius: 1em 1em 0 0 !important;
+}
+
+.card-news-title {
+  font-weight: bolder !important;
+}
+
+.card-news-button {
+  background-color: #eb164d !important;
+  border: none !important;
+  transition: 0.2s;
+}
+.card-news-button:hover {
+  background-color: #b8143d !important;
+}
+
+.news-list-container {
+  display: flex;
+  width: 85vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.news-container {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  height: fit-content;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #5889c6;
+  padding: 3em;
+}
+.news-container .news-container-button {
+  background-color: #eb164d !important;
+  border: none !important;
+  transition: 0.2s;
+}
+.news-container .news-container-button:hover {
+  background-color: #b8143d !important;
+}
+
+.spinner {
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container {
+  display: flex;
+  padding: 2em;
+  height: 60vh;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+.home-container .home-text-container {
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container .home-text-container .home-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 2vw;
+  font-weight: bolder;
+  padding-bottom: 1em;
+}
+.home-container .home-text-container .home-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3vw;
+  padding-bottom: 1em;
+}
+.home-container .home-text-container .home-dots {
+  width: 30%;
+}
+.home-container .home-img-container {
+  display: flex;
+  width: 25vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  width: 100vw;
+  background-color: #eb164d;
+  font-family: "Raleway", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container .footer-logo-container {
+  display: flex;
+  width: 30vw;
+  padding: 2em;
+  justify-content: center;
+}
+.footer-container .footer-logo-container .footer-logo {
+  display: flex;
+  width: 15vw;
+}
+.footer-container .footer-datos-contaier {
+  display: flex;
+  width: 30vw;
+  color: white;
+  align-items: center;
+  margin-top: 1em;
+  font-size: 0.7vw;
+}
+.footer-container .footer-datos-contaier ul {
+  list-style-type: none;
+}
+.footer-container .footer-datos-contaier li {
+  margin-bottom: 0.5em;
+}
+.footer-container .footer-datos-contaier span {
+  font-weight: bold;
+}
+.footer-container .footer-form-container {
+  display: flex;
+  width: 30vw;
+  justify-content: center;
+}
+.footer-container .footer-form-container .form-container {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  padding: 1.5em 0 1.5em;
+}
+.footer-container .footer-form-container .form-input {
+  margin: 0.3em;
+  font-size: 0.7vw;
+  border: none;
+  padding: 0.3em;
+}
+.footer-container .footer-form-container .form-input:focus {
+  border: none;
+}
+.footer-container .footer-form-container .form-title {
+  color: white;
+  font-size: 1vw;
+}
+.footer-container .footer-form-container .form-textarea {
+  margin: 0.3em;
+  font-size: 0.7vw;
+}
+.footer-container .footer-form-container .form-submit {
+  font-size: 0.7vw;
+  border: none;
+  width: fit-content;
+  padding: 0.3em;
+  margin: 0.3em;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=App.css.map */

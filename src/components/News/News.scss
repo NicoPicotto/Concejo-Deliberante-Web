@@ -1,14 +1,16 @@
+@import '../../Theme.scss';
+
 .news-card-container {
 	box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.22);
 	display: flex;
 	margin: 1em;
 	width: 20vw !important;
-	font-family: 'Raleway', sans-serif;
+	font-family: $fuente-primaria;
 	border: none !important;
 	border-radius: 1em !important;
 }
 
-.news-card-img{
+.news-card-img {
 	border-radius: 1em 1em 0 0 !important;
 }
 
@@ -17,11 +19,5 @@
 }
 
 .card-news-button {
-	background-color: #eb164d !important;
-	border: none !important;
-    transition: 0.2s;
-}
-
-.card-news-button:hover{
-    background-color: #b8143d !important;
+	@include boton-primario;
 }
