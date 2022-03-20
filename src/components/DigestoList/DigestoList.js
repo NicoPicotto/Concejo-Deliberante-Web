@@ -1,14 +1,22 @@
-import React from 'react'
-import Digestos from "../Digestos/Digestos"
+import React from 'react';
+import Digestos from '../Digestos/Digestos';
 
-const DigestoList = ({data}) => {
+const DigestoList = ({ data, search }) => {
 	return (
 		<div className='digesto-list-container'>
-      {data.map((news) => {
-				return <Digestos data={news} key={news.id} />;
-			})}
+			{data
+				.filter((val) => {
+					if (search == '') {
+						return val;
+					} else if (val.title.toLowerCase().includes(search.toLowerCase())) {
+						return val;
+					}
+				})
+				.map((val, key) => {
+					return <Digestos data={val} key={key} />;
+				})}
 		</div>
 	);
-}
+};
 
-export default DigestoList
+export default DigestoList;

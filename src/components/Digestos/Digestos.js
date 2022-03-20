@@ -6,6 +6,7 @@ import {AiFillFilePdf} from "react-icons/ai"
 const Digestos = ({ data }) => {
 
     const fecha = data.date.toDate().toLocaleDateString('es-ES');
+	
 
 	return (
 		<div>

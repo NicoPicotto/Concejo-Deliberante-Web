@@ -5,7 +5,7 @@ import Loading from '../Loading/Loading';
 import DigestoList from '../DigestoList/DigestoList';
 import { Button } from 'react-bootstrap';
 
-const DigestoContainer = () => {
+const DigestoContainer = ({search}) => {
 	const [digestoData, setDigestoData] = useState([]);
 	const [loading, setLoading] = useState(false);
 	const [moreDigesto, setMoreDigesto] = useState(4);
@@ -36,10 +36,10 @@ const DigestoContainer = () => {
 
 	return (
 		<div className='leg-firebase-container'>
-			<DigestoList data={digestoData}/>
+			<DigestoList data={digestoData} search={search}/>
 			{loading && <Loading />}
 			<Button className='leg-container-button' onClick={loadMoreDigesto}>
-				Cargar documentos
+				Cargar más documentos
 			</Button>
 		</div>
 	);
