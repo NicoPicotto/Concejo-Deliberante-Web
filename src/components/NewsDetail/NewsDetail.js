@@ -5,7 +5,6 @@ import { Button } from 'react-bootstrap';
 
 const NewsDetail = ({ data }) => {
 	const fecha = data.date.toDate().toLocaleDateString('es-ES');
-	console.log(fecha);
 
 	return (
 		<div className='news-detail'>

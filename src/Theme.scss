@@ -13,6 +13,8 @@ $fuente-primaria: 'Raleway', sans-serif;
 	font-family: 'Raleway', sans-serif;
 	border: none !important;
 	transition: 0.2s;
+	align-items: center;
+	justify-content: center;
 
 	&:hover {
 		background-color: #b8143d !important;

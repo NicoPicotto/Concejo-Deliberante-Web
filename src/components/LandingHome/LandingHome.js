@@ -1,12 +1,12 @@
 import React from 'react';
 import dots from '../../img/dots-01.png';
 import Lottie from 'lottie-react';
-import lottieHome from '../../Lottie/lf30_editor_diktondu.json';
+import lottieHome from '../../Lottie/35684-business-team-discusses-project (1).json';
 
 const options = {
 	animationData: lottieHome,
 	autoplay: true,
-	loop: false,
+	loop: true,
 	style: {
 		width: '80%',
 	},

@@ -1,0 +1,55 @@
+.leg-landing-container{
+    display: flex;
+	padding: 2em;
+	height: 70vh;
+	width: 100vw;
+	justify-content: space-evenly;
+
+    .leg-text-container{
+        display: flex;
+		width: 50vw;
+		flex-direction: column;
+		justify-content: center;
+
+        .leg-title{
+            font-family: $fuente-primaria;
+			font-size: 2vw;
+			font-weight: bolder;
+			padding-bottom: 1em;
+        }
+
+        .leg-input{
+            display: flex;
+            padding: 1em;
+            font-size: 1vw;
+            font-family: $fuente-primaria;
+            border-radius: 1.5em;
+            color: $color-primario;
+            margin-bottom: 2em;
+            border: 1px solid $color-secundario;
+            transition: 0.2s;
+
+            &:focus{
+                outline: 2px solid $color-secundario;
+            }
+        }
+
+        .home-dots{
+            width: 30%;
+            margin-bottom: 2em;
+        }
+
+        .leg-text{
+            font-family: $fuente-primaria;
+			font-size: 1.3vw;
+			padding-bottom: 1em;
+        }
+    }
+
+    .leg-img-container{
+        display: flex;
+		width: 30vw;
+		align-items: center;
+		justify-content: center;
+    }
+}

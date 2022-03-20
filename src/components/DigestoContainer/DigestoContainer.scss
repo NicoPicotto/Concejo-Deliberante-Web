@@ -1,0 +1,17 @@
+@import '../../Theme.scss';
+
+.leg-firebase-container {
+	display: flex;
+	width: 100vw;
+	flex-direction: column;
+	height: fit-content;
+	align-items: center;
+	justify-content: space-around;
+	background-color: $color-secundario;
+	padding: 2em 2em;
+
+	.leg-container-button {
+		@include boton-primario;
+		margin: 1em 1em;
+	}
+}

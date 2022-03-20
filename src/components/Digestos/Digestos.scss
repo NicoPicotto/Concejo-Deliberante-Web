@@ -1,0 +1,33 @@
+.dig-card-container{
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.22);
+	display: flex;
+	margin: 2em;
+	width: 18vw !important;
+    min-height: 25vh !important;
+	font-family: $fuente-primaria;
+	border: none !important;
+	border-radius: 1em !important;
+
+    .dig-card-number{
+        background-color: $color-primario;
+        border-radius: 1em 1em 0 0 !important;
+        color: white;
+    }
+
+    .dig-card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .dig-card-date{
+        font-size: 0.7vw;
+        color: grey;
+        font-style: italic;
+        margin-bottom: 1em;
+    }
+
+    .dig-card-download {
+		@include boton-primario;
+	}
+}

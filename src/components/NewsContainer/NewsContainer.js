@@ -8,11 +8,11 @@ import { Button } from 'react-bootstrap';
 const NewsContainer = () => {
 	const [newsData, setNewsData] = useState([]);
 	const [loading, setLoading] = useState(false);
-	const [moreNews, setMoreNews] = useState(4);
+	const [moreNews, setMoreNews] = useState(3);
 
 	//Función para cargar de a 3 noticias más
 	const loadMoreNews = () => {
-		setMoreNews(moreNews + 4);
+		setMoreNews(moreNews + 3);
 	};
 
 	useEffect(() => {
