@@ -4,18 +4,15 @@ import { Link } from 'react-router-dom';
 
 const News = ({ data }) => {
 	return (
-		<div>
-			<Card style={{ width: '20rem' }} className='news-card-container'>
-				<Card.Img variant='top' src={data.img} className="news-card-img"/>
-				<Card.Body>
-					<Card.Title className='card-news-title'>{data.title}</Card.Title>
-					<Card.Text className='card-news-text'>{data.subtitle}</Card.Text>
-					<Link to={`news/${data.id}`}>
-						<Button className='card-news-button'>Ver noticia</Button>
-					</Link>
-				</Card.Body>
-			</Card>
+		<Link to={`news/${data.id}`} style={{textDecoration: "none"}}>
+		<div className='news-card-container' style={{backgroundImage: `url(${data.img})`, backgroundSize: "100%"}}>
+			<div className='card-news-text'>
+				<h2 className='card-title'>{data.title}</h2>
+				<hr class="solid"/>
+				<h2 className='card-subtitle'>{data.subtitle}</h2>
+			</div>
 		</div>
+		</Link>
 	);
 };
 

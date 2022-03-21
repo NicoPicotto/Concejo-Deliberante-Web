@@ -17,7 +17,7 @@
 
 		.footer-logo {
 			display: flex;
-			width: 16vw;
+			width: 15em;
 		}
 	}
 
@@ -27,7 +27,7 @@
 		color: white;
 		align-items: center;
 		margin-top: 1em;
-		font-size: 0.8vw;
+		font-size: 0.8em;
 		flex-direction: column;
 		align-items: flex-start;
 
@@ -55,7 +55,7 @@
 			.rrss-icons {
 				display: flex;
 				margin-right: 1em;
-				font-size: 1vw;
+				font-size: 1.2em;
 				transition: 0.2s;
 				color: white;
 
@@ -86,7 +86,7 @@
 			.form-input {
 				width: 49%;
 				margin-bottom: 0.3em;
-				font-size: 0.7vw;
+				font-size: 0.7em;
 				border: none;
 				padding: 0.3em;
 			}
@@ -94,18 +94,18 @@
 
 		.form-title {
 			color: white;
-			font-size: 1vw;
+			font-size: 1em;
 		}
 
 		.form-textarea {
 			margin-top: 0.3em;
-			font-size: 0.7vw;
+			font-size: 0.7em;
 			border: none;
 			padding: 0.3em;
 		}
 
 		.form-submit {
-			font-size: 0.7vw;
+			font-size: 0.7em;
 			border: none;
 			width: fit-content;
 			padding: 0.3em;

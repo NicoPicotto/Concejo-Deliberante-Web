@@ -22,7 +22,7 @@ const SearchLegislacion = () => {
 			<div className='leg-landing-container'>
 				<div className='leg-text-container'>
 					<h1 className='leg-title'>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Buscador Digesto Municipal
 					</h1>
 					<input
 						placeholder='Escribí acá para buscar'
@@ -32,8 +32,7 @@ const SearchLegislacion = () => {
 					></input>
 					<img src={dots} className='home-dots' />
 					<h3 className='leg-text'>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-						non quis exercitationem
+						Aquí podrás buscar y encontrar todas las ordenanzas sancionadas hasta hoy.
 					</h3>
 				</div>
 				<div className='leg-img-container'>

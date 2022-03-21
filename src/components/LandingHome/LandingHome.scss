@@ -9,20 +9,20 @@
 
 	.home-text-container {
 		display: flex;
-		width: 50vw;
+		width: 50%;
 		flex-direction: column;
 		justify-content: center;
 
 		.home-title {
 			font-family: $fuente-primaria;
-			font-size: 2vw;
+			font-size: 2em;
 			font-weight: bolder;
 			padding-bottom: 1em;
 		}
 
 		.home-text {
 			font-family: $fuente-primaria;
-			font-size: 1.3vw;
+			font-size: 1.3em;
 			padding-bottom: 1em;
 		}
 		.home-dots {
@@ -32,7 +32,7 @@
 
 	.home-img-container {
 		display: flex;
-		width: 35vw;
+		width: 30%;
 		align-items: center;
 		justify-content: center;
 	}

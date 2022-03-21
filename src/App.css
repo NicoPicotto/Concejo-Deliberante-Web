@@ -9,14 +9,14 @@
   color: white;
   text-decoration: none;
   font-weight: bolder;
-  font-size: 1.2vw;
+  font-size: 1em;
 }
 .navbar-container .navbar-logo:hover {
   color: white;
 }
 .navbar-container .navbar-links {
   font-family: "Raleway", sans-serif;
-  font-size: 1vw;
+  font-size: 1em;
 }
 .navbar-container .navbar-link-button {
   color: white !important;
@@ -43,25 +43,46 @@
 .news-card-container {
   box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.22);
   display: flex;
-  margin: 2em;
-  min-width: 13vw !important;
   font-family: "Raleway", sans-serif;
-  border: none !important;
-  border-radius: 1em !important;
+  margin: 2em;
+  width: 25em;
+  height: 27em;
+  border-radius: 1em;
+  text-decoration: none !important;
+  transition: 0.2s;
+  align-items: flex-end;
 }
-.news-card-container .news-card-img {
-  border-radius: 1em 1em 0 0 !important;
-}
-.news-card-container .card-news-title {
-  font-weight: bolder !important;
-  font-size: 1.5vw;
+.news-card-container:hover {
+  transform: scale(103%);
 }
 .news-card-container .card-news-text {
-  font-size: 1vw;
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1em;
+  background-color: #eb164d;
+  border-radius: 0 0 1em 1em;
+  box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.22);
+}
+.news-card-container .card-news-text .solid {
+  color: white;
+  margin: 0.5em 0 1em;
+}
+.news-card-container .card-news-text .card-title {
+  font-size: 1.1em;
+  color: white;
+  font-weight: bold;
+}
+.news-card-container .card-news-text .card-subtitle {
+  font-size: 0.9em;
+  color: white;
+  font-style: italic;
 }
 .news-card-container .card-news-button {
   background-color: #eb164d !important;
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
   border: none !important;
   transition: 0.2s;
@@ -91,7 +112,7 @@
 }
 .news-container .news-container-button {
   background-color: #eb164d !important;
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
   border: none !important;
   transition: 0.2s;
@@ -119,19 +140,19 @@
 }
 .home-container .home-text-container {
   display: flex;
-  width: 50vw;
+  width: 50%;
   flex-direction: column;
   justify-content: center;
 }
 .home-container .home-text-container .home-title {
   font-family: "Raleway", sans-serif;
-  font-size: 2vw;
+  font-size: 2em;
   font-weight: bolder;
   padding-bottom: 1em;
 }
 .home-container .home-text-container .home-text {
   font-family: "Raleway", sans-serif;
-  font-size: 1.3vw;
+  font-size: 1.3em;
   padding-bottom: 1em;
 }
 .home-container .home-text-container .home-dots {
@@ -139,7 +160,7 @@
 }
 .home-container .home-img-container {
   display: flex;
-  width: 35vw;
+  width: 30%;
   align-items: center;
   justify-content: center;
 }
@@ -161,7 +182,7 @@
 }
 .footer-container .footer-logo-container .footer-logo {
   display: flex;
-  width: 16vw;
+  width: 15em;
 }
 .footer-container .footer-datos-contaier {
   display: flex;
@@ -169,7 +190,7 @@
   color: white;
   align-items: center;
   margin-top: 1em;
-  font-size: 0.8vw;
+  font-size: 0.8em;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -193,7 +214,7 @@
 .footer-container .footer-datos-contaier .rrss-icons-container .rrss-icons {
   display: flex;
   margin-right: 1em;
-  font-size: 1vw;
+  font-size: 1.2em;
   transition: 0.2s;
   color: white;
 }
@@ -219,22 +240,22 @@
 .footer-container .footer-form-container .input-group .form-input {
   width: 49%;
   margin-bottom: 0.3em;
-  font-size: 0.7vw;
+  font-size: 0.7em;
   border: none;
   padding: 0.3em;
 }
 .footer-container .footer-form-container .form-title {
   color: white;
-  font-size: 1vw;
+  font-size: 1em;
 }
 .footer-container .footer-form-container .form-textarea {
   margin-top: 0.3em;
-  font-size: 0.7vw;
+  font-size: 0.7em;
   border: none;
   padding: 0.3em;
 }
 .footer-container .footer-form-container .form-submit {
-  font-size: 0.7vw;
+  font-size: 0.7em;
   border: none;
   width: fit-content;
   padding: 0.3em;
@@ -258,33 +279,33 @@
   margin-bottom: 2em;
 }
 .news-detail .news-detail-text {
-  width: 50vw;
+  width: 50%;
 }
 .news-detail .news-detail-text h1 {
   font-weight: bold;
-  font-size: 1.8vw;
+  font-size: 1.5em;
   margin-bottom: 1em;
   background-color: #febe39;
   width: fit-content;
   padding: 0.5em;
 }
 .news-detail .news-detail-text p {
-  font-size: 1.2vw;
+  font-size: 1em;
   margin-bottom: 1em;
 }
 .news-detail .news-detail-text h3 {
-  font-size: 1vw;
+  font-size: 0.8em;
   color: grey;
   font-style: italic;
   margin-bottom: 1em;
 }
 .news-detail .news-detail-text img {
-  width: 15vw;
+  width: 13em;
   margin-bottom: 1em;
 }
 .news-detail .news-detail-text .news-detail-button {
   background-color: #eb164d !important;
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
   border: none !important;
   transition: 0.2s;
@@ -295,7 +316,7 @@
   background-color: #b8143d !important;
 }
 .news-detail .news-img-container {
-  width: 30vw;
+  width: 30%;
 }
 .news-detail .news-img-container img {
   width: 100%;
@@ -310,20 +331,20 @@
 }
 .leg-landing-container .leg-text-container {
   display: flex;
-  width: 50vw;
+  width: 50%;
   flex-direction: column;
   justify-content: center;
 }
 .leg-landing-container .leg-text-container .leg-title {
   font-family: "Raleway", sans-serif;
-  font-size: 2vw;
+  font-size: 2em;
   font-weight: bolder;
   padding-bottom: 1em;
 }
 .leg-landing-container .leg-text-container .leg-input {
   display: flex;
   padding: 1em;
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
   border-radius: 1.5em;
   color: #eb164d;
@@ -340,12 +361,12 @@
 }
 .leg-landing-container .leg-text-container .leg-text {
   font-family: "Raleway", sans-serif;
-  font-size: 1.3vw;
+  font-size: 1em;
   padding-bottom: 1em;
 }
 .leg-landing-container .leg-img-container {
   display: flex;
-  width: 30vw;
+  width: 30%;
   align-items: center;
   justify-content: center;
 }
@@ -362,7 +383,7 @@
 }
 .leg-firebase-container .leg-container-button {
   background-color: #eb164d !important;
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
   border: none !important;
   transition: 0.2s;
@@ -409,7 +430,7 @@
 }
 .dig-card-container .dig-card-download {
   background-color: #eb164d !important;
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Raleway", sans-serif;
   border: none !important;
   transition: 0.2s;

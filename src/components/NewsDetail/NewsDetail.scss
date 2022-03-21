@@ -5,11 +5,11 @@
     margin-bottom: 2em;
 
     .news-detail-text{
-        width: 50vw;
+        width: 50%;
         
         h1{
             font-weight: bold;
-            font-size: 1.8vw;
+            font-size: 1.5em;
             margin-bottom: 1em;
             background-color: $color-secundario;
             width: fit-content;
@@ -17,19 +17,19 @@
         }
 
         p{
-            font-size: 1.2vw;
+            font-size: 1em;
             margin-bottom: 1em;
         }
 
         h3{
-            font-size: 1vw;
+            font-size: 0.8em;
             color: grey;
             font-style: italic;
             margin-bottom: 1em;
         }
 
         img{
-            width: 15vw;
+            width: 13em;
             margin-bottom: 1em;
         }
 
@@ -39,7 +39,7 @@
     }
 
     .news-img-container{
-        width: 30vw;
+        width: 30%;
 
         img{
             width: 100%;
