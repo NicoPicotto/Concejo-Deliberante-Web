@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { collection, query, getDocs, limit, orderBy } from 'firebase/firestore';
+import { collection, query, getDocs,  limit, orderBy, startAt, endAt, where } from 'firebase/firestore';
 import { db } from '../../firebase/firebaseConfig';
 import Loading from '../Loading/Loading';
 import DigestoList from '../DigestoList/DigestoList';
@@ -21,8 +21,9 @@ const DigestoContainer = ({search}) => {
 			const docs = [];
 			const q = query(
 				collection(db, 'digesto'),
-				orderBy('date', 'desc'),
-				limit(moreDigesto)
+				where("keywords", "array-contains", search)
+				// orderBy('date', 'desc'),
+				// limit(moreDigesto)
 			);
 			const querySnapshot = await getDocs(q);
 			querySnapshot.forEach((doc) => {
@@ -32,7 +33,7 @@ const DigestoContainer = ({search}) => {
 			setDigestoData(docs);
 		};
 		getDigesto();
-	}, [moreDigesto]);
+	}, [moreDigesto, search]);
 
 	return (
 		<div className='leg-firebase-container'>

@@ -11,9 +11,10 @@
 
 	.footer-logo-container {
 		display: flex;
-		width: 30vw;
 		padding: 2em;
 		justify-content: center;
+		margin-left: 2em;
+		margin-right: 2em;
 
 		.footer-logo {
 			display: flex;
@@ -23,18 +24,18 @@
 
 	.footer-datos-contaier {
 		display: flex;
-		width: 30vw;
+		width: 20%;
 		color: white;
-		align-items: center;
 		margin-top: 1em;
 		font-size: 0.8em;
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: flex-end;
 
 		ul {
 			list-style-type: none;
 			padding: 0;
 			margin-bottom: 0;
+			text-align: right;
 		}
 
 		li {
@@ -47,17 +48,22 @@
 
 		.rrss-icons-container {
 			display: flex;
+			justify-content: right;
+			width: 100%;
+			
 
 			a{
 				text-decoration: none;
+				
 			}
 
 			.rrss-icons {
 				display: flex;
-				margin-right: 1em;
+				margin-left: 1em;
 				font-size: 1.2em;
 				transition: 0.2s;
 				color: white;
+				
 
 				&:hover {
 					color: $color-secundario;
@@ -68,8 +74,8 @@
 
 	.footer-form-container {
 		display: flex;
-		width: 30vw;
-		justify-content: center;
+		width: 30%;
+		justify-content: left;
 
 		.form-container {
 			display: flex;
