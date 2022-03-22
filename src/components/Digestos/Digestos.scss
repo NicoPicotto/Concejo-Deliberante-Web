@@ -29,11 +29,12 @@
         font-size: 0.8em;
         color: grey;
         font-style: italic;
-        margin-bottom: 1em;
+
     }
 
     .dig-card-download {
 		@include boton-primario;
         font-size: 0.8em;
+        border-radius: 0 0 1em 1em;
 	}
 }

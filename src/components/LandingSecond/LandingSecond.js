@@ -14,7 +14,7 @@ const options = {
 const LandingSecond = () => {
 	return (
 		<div className='home-container'>
-			<div className='home-img-container'>
+			<div className='second-img-container'>
 				<Lottie {...options} />
 			</div>
 			<div className='home-text-container'>

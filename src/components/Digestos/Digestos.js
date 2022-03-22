@@ -19,8 +19,8 @@ const Digestos = ({ data }) => {
                     <Card.Text className='dig-card-date'>
 						Sancionada: {fecha}
 					</Card.Text>
-					<Button className='dig-card-download' href={data.link} target="_blank">Descargar PDF <AiFillFilePdf /></Button>
-				</Card.Body>
+					
+				</Card.Body><Button className='dig-card-download' href={data.link} target="_blank">Descargar PDF <AiFillFilePdf /></Button>
 			</Card>
 		</div>
 	);

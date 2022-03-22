@@ -5,11 +5,11 @@
 	padding: 2em;
 	height: 70vh;
 	width: 100vw;
-	justify-content: space-evenly;
+	justify-content: center;
 
 	.home-text-container {
 		display: flex;
-		width: 50%;
+		width: 40%;
 		flex-direction: column;
 		justify-content: center;
 
@@ -32,7 +32,14 @@
 
 	.home-img-container {
 		display: flex;
-		width: 30%;
+		width: 40%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.second-img-container{
+		display: flex;
+		width: 25%;
 		align-items: center;
 		justify-content: center;
 	}
