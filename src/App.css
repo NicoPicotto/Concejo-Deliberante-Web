@@ -2,7 +2,6 @@
 .navbar-container {
   background-color: #eb164d;
   width: 100vw;
-  margin-bottom: 2em;
 }
 .navbar-container .navbar-logo {
   font-family: "Raleway", sans-serif;
@@ -334,9 +333,10 @@
 .leg-landing-container {
   display: flex;
   padding: 2em;
-  height: 70vh;
+  height: 40em;
   width: 100vw;
   justify-content: space-evenly;
+  align-items: center;
 }
 .leg-landing-container .leg-text-container {
   display: flex;
@@ -372,11 +372,11 @@
   display: flex;
   font-family: "Raleway", sans-serif;
   width: 100%;
-  height: 10em;
 }
-.leg-landing-container .leg-text-container .leg-text-container .tooltip-palabra {
+.leg-landing-container .leg-text-container .leg-text-container .tooltip-word {
   background-color: #febe39;
   font-weight: bold;
+  padding: 0 0.2em;
 }
 .leg-landing-container .leg-text-container .leg-img-container {
   display: flex;
@@ -434,11 +434,19 @@
 }
 .dig-card-container .dig-card-text {
   font-size: 0.9em;
+  font-weight: bolder;
 }
 .dig-card-container .dig-card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.dig-card-container .dig-card-tema {
+  font-size: 0.8em;
+  background-color: #febe39;
+  width: fit-content;
+  font-style: italic;
+  padding: 0.1em;
 }
 .dig-card-container .dig-card-date {
   font-size: 0.8em;

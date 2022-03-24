@@ -1,9 +1,10 @@
 .leg-landing-container {
 	display: flex;
 	padding: 2em;
-	height: 70vh;
+	height: 40em;
 	width: 100vw;
 	justify-content: space-evenly;
+    align-items: center;
 
 	.leg-text-container {
 		display: flex;
@@ -43,14 +44,12 @@
 			display: flex;
 			font-family: $fuente-primaria;
 			width: 100%;
-			height: 10em;
 
-            .tooltip-palabra{
-                background-color: $color-secundario;
-                font-weight: bold;
-            }
-
-
+			.tooltip-word {
+				background-color: $color-secundario;
+				font-weight: bold;
+				padding: 0 0.2em;
+			}
 		}
 
 		.leg-img-container {
