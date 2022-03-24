@@ -106,7 +106,7 @@
   height: fit-content;
   align-items: center;
   justify-content: space-around;
-  background-color: #5889c6;
+  background-color: #85aad8;
   padding: 2em 2em;
 }
 .news-container .news-container-button {
@@ -147,7 +147,7 @@
   font-family: "Raleway", sans-serif;
   font-size: 2em;
   font-weight: bolder;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 .home-container .home-text-container .home-text {
   font-family: "Raleway", sans-serif;
@@ -465,6 +465,20 @@
   border-radius: 0 0 1em 1em;
 }
 .dig-card-container .dig-card-download:hover {
+  background-color: #b8143d !important;
+}
+
+.leg-button {
+  background-color: #eb164d !important;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  border: none !important;
+  transition: 0.2s;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+.leg-button:hover {
   background-color: #b8143d !important;
 }
 

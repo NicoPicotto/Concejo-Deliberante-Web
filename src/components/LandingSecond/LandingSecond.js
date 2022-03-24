@@ -1,6 +1,8 @@
 import React from 'react';
 import Lottie from 'lottie-react';
 import lottieHomeSecond from '../../Lottie/lf30_editor_g7nojeb8.json';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const options = {
 	animationData: lottieHomeSecond,
@@ -18,15 +20,14 @@ const LandingSecond = () => {
 				<Lottie {...options} />
 			</div>
 			<div className='home-text-container'>
-				<h1 className='home-title'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				</h1>
+				<h1 className='home-title'>Información clara y transparente</h1>
 				<h2 className='home-text'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non
-					quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-					reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-					Voluptatum ducimus voluptates voluptas?
+					Contamos con un bucador para que puedas consutlar el digesto y
+					mantenerte informado sobre las ordenanzas sancionadas hasta la fecha.
 				</h2>
+				<Link to='/legislacion'>
+					<Button className='leg-button'>Consultar el digesto</Button>
+				</Link>
 			</div>
 		</div>
 	);
