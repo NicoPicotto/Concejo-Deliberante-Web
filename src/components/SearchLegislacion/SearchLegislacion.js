@@ -25,15 +25,28 @@ const SearchLegislacion = () => {
 						placeholder='Escribí acá para buscar'
 						className='leg-input'
 						onChange={(event) =>
-							setSearchTerm(event.target.value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase())
+							setSearchTerm(
+								event.target.value
+									.normalize('NFD')
+									.replace(/[\u0300-\u036f]/g, '')
+									.toLocaleLowerCase()
+							)
 						}
 						search={searchTerm}
 					></input>
-					<img src={dots} className='home-dots' alt="separador puntos de colores"/>
-					<h3 className='leg-text'>
-						Aquí podrás buscar y encontrar todas las ordenanzas sancionadas
-						hasta hoy.
-					</h3>
+					<img
+						src={dots}
+						className='home-dots'
+						alt='separador puntos de colores'
+					/>
+					<div className='leg-text-container'>
+						<div>
+							Podés buscar la normativa que te interese por{' '}
+							<span className='tooltip-palabra'>
+								palabra clave
+							</span>
+						</div>
+					</div>
 				</div>
 				<div className='leg-img-container'>
 					<Lottie {...options} />

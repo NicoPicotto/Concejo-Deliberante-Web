@@ -17,13 +17,19 @@ const LandingHome = () => {
 		<div className='home-container'>
 			<div className='home-text-container'>
 				<h1 className='home-title'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					¡Bienvenidos al sitio del Concejo de General Cabrera!
 				</h1>
 				<h2 className='home-text'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non
-					quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-					reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-					Voluptatum ducimus voluptates voluptas?
+					Aquí podrás informarte sobre las fechas de nuestras sesiones, los
+					temas tratados, las ordenanzas aprobadas, eventos y actividades de
+					interés y promovidos por el Concejo. Además contamos con una
+					herramienta de búsqueda, para que puedas interiorizarte sobre la
+					normativa vigente de tus temas de interés.
+				</h2>
+				<h2 className='home-text'>
+					Si deseas realizar consultas o reclamos, lo podés hacer
+					presencialmente en nuestras sesiones o a través de nuestro canal de
+					consultas desde esta página.
 				</h2>
 				<img src={dots} className='home-dots' />
 			</div>

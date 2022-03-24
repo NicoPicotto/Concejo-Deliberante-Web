@@ -3,7 +3,7 @@
 .home-container {
 	display: flex;
 	padding: 2em;
-	height: 70vh;
+	height: 40em;
 	width: 100vw;
 	justify-content: center;
 
@@ -22,7 +22,7 @@
 
 		.home-text {
 			font-family: $fuente-primaria;
-			font-size: 1.3em;
+			font-size: 1em;
 			padding-bottom: 1em;
 		}
 		.home-dots {
@@ -32,7 +32,7 @@
 
 	.home-img-container {
 		display: flex;
-		width: 40%;
+		width: 45em;
 		align-items: center;
 		justify-content: center;
 	}
