@@ -482,6 +482,12 @@
   background-color: #b8143d !important;
 }
 
+.timeline-container {
+  box-sizing: border-box;
+  background-color: #85aad8;
+  width: 100vw;
+}
+
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
