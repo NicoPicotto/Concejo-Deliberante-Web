@@ -1,12 +1,12 @@
 import React from 'react';
 import dots from '../../img/dots-01.png';
 import Lottie from 'lottie-react';
-import lottieHome from '../../Lottie/lf30_editor_jgszsgfw.json';
+import lottieHome from '../../Lottie/lf30_editor_krt6lqd2.json';
 
 const options = {
 	animationData: lottieHome,
 	autoplay: true,
-	loop: true,
+	loop: false,
 	style: {
 		width: '80%',
 	},
