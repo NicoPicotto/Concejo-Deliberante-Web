@@ -483,7 +483,6 @@
 }
 
 .timeline-container {
-  box-sizing: border-box;
   background-color: #85aad8;
   width: 100vw;
 }
