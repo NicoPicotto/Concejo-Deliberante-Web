@@ -485,6 +485,25 @@
 .timeline-container {
   background-color: #85aad8;
   width: 100vw;
+  padding: 0 2em;
+  font-family: "Raleway", sans-serif;
+}
+.timeline-container .vertical-timeline-element-title {
+  font-weight: bolder;
+  background-color: #febe39;
+  width: fit-content;
+  padding: 0 0.2em;
+}
+.timeline-container .vertical-timeline-element-subtitle {
+  text-decoration: underline;
+  background-color: #febe39;
+  width: fit-content;
+  padding: 0 0.2em;
+}
+.timeline-container .vertical-timeline-element-date {
+  font-weight: bolder !important;
+  opacity: 1 !important;
+  color: white;
 }
 
 body {
