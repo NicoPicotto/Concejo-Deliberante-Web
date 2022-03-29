@@ -411,7 +411,6 @@
 
 .digesto-list-container {
   display: flex;
-  width: 90vw;
   justify-content: center;
   flex-wrap: wrap;
 }
