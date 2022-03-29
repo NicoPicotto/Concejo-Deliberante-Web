@@ -7,7 +7,7 @@ const News = ({ data }) => {
 		<div className='news-card-container' style={{backgroundImage: `url(${data.img})`, backgroundSize: "100%"}}>
 			<div className='card-news-text'>
 				<h2 className='card-title'>{data.title}</h2>
-				<hr class="solid"/>
+				<hr className="solid"/>
 				<h2 className='card-subtitle'>{data.subtitle}</h2>
 			</div>
 		</div>

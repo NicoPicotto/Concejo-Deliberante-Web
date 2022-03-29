@@ -43,7 +43,7 @@ const SearchLegislacion = () => {
 					/>
 					<div className='leg-text-container'>
 						<div>
-							Podés buscar la normativa que te interese por:{' '}<br />
+							Podés buscar la normativa que te interese por: <br />
 							<Tippy content={<span>Por ejemplo: "Juventud"</span>}>
 								<span className='tooltip-word'>Palabra clave</span>
 							</Tippy>
@@ -53,8 +53,7 @@ const SearchLegislacion = () => {
 							>
 								<span className='tooltip-word'> año de sanción</span>
 							</Tippy>
-							,
-							por{' '}
+							, por{' '}
 							<Tippy content={<span>Por ejemplo: "057"</span>}>
 								<span className='tooltip-word'> número de ordenanza</span>
 							</Tippy>{' '}

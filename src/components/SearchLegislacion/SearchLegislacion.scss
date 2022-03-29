@@ -3,8 +3,7 @@
 	padding: 2em;
 	height: 32em;
 	width: 100vw;
-	justify-content: space-evenly;
-    align-items: center;
+	justify-content: center;
 
 	.leg-text-container {
 		display: flex;
@@ -14,19 +13,19 @@
 
 		.leg-title {
 			font-family: $fuente-primaria;
-			font-size: 2em;
+			font-size: 1.5em;
 			font-weight: bolder;
-			padding-bottom: 1em;
+			margin-bottom: 0.5em;
 		}
 
 		.leg-input {
 			display: flex;
 			padding: 1em;
-			font-size: 1em;
+			font-size: 0.9em;
 			font-family: $fuente-primaria;
 			border-radius: 1.5em;
 			color: $color-primario;
-			margin-bottom: 2em;
+			margin-bottom: 1em;
 			border: 1px solid $color-secundario;
 			transition: 0.2s;
 
@@ -37,13 +36,14 @@
 
 		.home-dots {
 			width: 30%;
-			margin-bottom: 2em;
+			margin-bottom: 0.5em;
 		}
 
 		.leg-text-container {
 			display: flex;
 			font-family: $fuente-primaria;
 			width: 100%;
+			font-size: 0.9em;
 
 			.tooltip-word {
 				background-color: $color-secundario;
@@ -52,11 +52,11 @@
 			}
 		}
 
-		.leg-img-container {
-			display: flex;
-			width: 30%;
-			align-items: center;
-			justify-content: center;
-		}
+	}
+	.leg-img-container {
+		display: flex;
+		width: 30em;
+		align-items: center;
+		justify-content: flex-end;
 	}
 }

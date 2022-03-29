@@ -15,14 +15,14 @@
 
 		.home-title {
 			font-family: $fuente-primaria;
-			font-size: 2em;
+			font-size: 1.5em;
 			font-weight: bolder;
 			padding-bottom: 0.5em;
 		}
 
 		.home-text {
 			font-family: $fuente-primaria;
-			font-size: 1em;
+			font-size: 0.9em;
 			padding-bottom: 1em;
 		}
 		.home-dots {
@@ -32,9 +32,9 @@
 
 	.home-img-container {
 		display: flex;
-		width: 45em;
+		width: 40em;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-end;
 	}
 
 	.second-img-container{
