@@ -133,7 +133,7 @@
 .home-container {
   display: flex;
   padding: 2em;
-  height: 40em;
+  height: 35em;
   width: 100vw;
   justify-content: center;
 }
@@ -333,7 +333,7 @@
 .leg-landing-container {
   display: flex;
   padding: 2em;
-  height: 40em;
+  height: 35em;
   width: 100vw;
   justify-content: space-evenly;
   align-items: center;
@@ -491,14 +491,19 @@
 .timeline-container .vertical-timeline-element-content {
   box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.22);
 }
+.timeline-container .vertical-timeline-element-content p {
+  font-size: 0.8em;
+}
 .timeline-container .vertical-timeline-element-title {
   font-weight: bolder;
+  font-size: 1.2em;
   background-color: #febe39;
   width: fit-content;
   padding: 0 0.2em;
 }
 .timeline-container .vertical-timeline-element-subtitle {
   text-decoration: underline;
+  font-size: 1em;
   background-color: #febe39;
   width: fit-content;
   padding: 0 0.2em;

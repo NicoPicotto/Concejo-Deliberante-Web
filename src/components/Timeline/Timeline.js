@@ -20,209 +20,370 @@ const Timeline = () => {
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
 					<p>
-						GUILLERMO D. CAVIGLIASSO <br />
-						EDGARDO J. TAMBURELLI
+						Guillermo D. Cavigliasso <br />
+						Edgardo J. Tamburelli
 						<br />
-						SILVINA ANGELETTI
+						Silvina Angeletti
 						<br />
-						DEBORA S. COTS. REEMPLAZADA POR MARIANA M. MUSSO
+						Debora S. Cots - Reemplazada por Marina M. Musso
 						<br />
-						JUAN PABLO MACAGNO
+						Juan Pablo Macagno
 						<br />
-						MAURO N. SALUSSO. REEPLAZADO POR MAURO CAMPAGNO
+						Mauro N. Salusso - Reemplazado por Mauro Campagno
 						<br />
-						CLAUDIA S. VILLARRUEL
+						Claudia S. Villarruel
 					</p>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>
 						Tribunal de cuentas
 					</h4>
 					<p>
-						CARLOS R. BOSSIO
+						Carlos R. Bossio
 						<br />
-						GISELE L. GATICA
+						Gisele L. Gatica
 						<br />
-						ALEJANDRO J. MASSOBRIO
+						Alejandro J. Massobrio
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className='vertical-timeline-element--work'
 					contentStyle={{ background: '#fff', color: 'black' }}
 					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-					date='2019 - Presente'
+					date='2015 - 2019'
 					iconStyle={{ background: '#febe39', color: '#fff' }}
 				>
 					<h3 className='vertical-timeline-element-title'>Marcos G. Carasso</h3>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
 					<p>
-						GUILLERMO D. CAVIGLIASSO <br />
-						EDGARDO J. TAMBURELLI
+						Juan R. Sanchez
 						<br />
-						SILVINA ANGELETTI
+						Guillermo D. Cavigliasso
 						<br />
-						DEBORA S. COTS. REEMPLAZADA POR MARIANA M. MUSSO
+						M. Florencia Heiland
 						<br />
-						JUAN PABLO MACAGNO
+						Claudia M. Pagella
 						<br />
-						MAURO N. SALUSSO. REEPLAZADO POR MAURO CAMPAGNO
+						Emilia A. Fava
 						<br />
-						CLAUDIA S. VILLARRUEL
+						Mauro N. Salusso
+						<br />
+						Mauro D. Campagno
 					</p>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>
 						Tribunal de cuentas
 					</h4>
 					<p>
-						CARLOS R. BOSSIO
+						Carlos R. Bossio
 						<br />
-						GISELE L. GATICA
+						Gisele L. Gatica
 						<br />
-						ALEJANDRO J. MASSOBRIO
+						Alejandro J. Massobrio
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className='vertical-timeline-element--work'
 					contentStyle={{ background: '#fff', color: 'black' }}
 					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-					date='2019 - Presente'
+					date='2011 - 2015'
 					iconStyle={{ background: '#febe39', color: '#fff' }}
 				>
-					<h3 className='vertical-timeline-element-title'>Marcos G. Carasso</h3>
+					<h3 className='vertical-timeline-element-title'>
+						Carolina F. Eusebio
+					</h3>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
 					<p>
-						GUILLERMO D. CAVIGLIASSO <br />
-						EDGARDO J. TAMBURELLI
+						Juan R. Sanchez
 						<br />
-						SILVINA ANGELETTI
+						Stella M. Plaza
 						<br />
-						DEBORA S. COTS. REEMPLAZADA POR MARIANA M. MUSSO
+						V. Pablo Karakachoff
 						<br />
-						JUAN PABLO MACAGNO
+						Silvina Angeletti
 						<br />
-						MAURO N. SALUSSO. REEPLAZADO POR MAURO CAMPAGNO
+						Pablo L. Castro
 						<br />
-						CLAUDIA S. VILLARRUEL
+						M. Gabriela Diaz
+						<br />
+						Edduardo C. Ottani
 					</p>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>
 						Tribunal de cuentas
 					</h4>
 					<p>
-						CARLOS R. BOSSIO
+						Alexis Malatini
 						<br />
-						GISELE L. GATICA
+						M. Fernanda Colomba
 						<br />
-						ALEJANDRO J. MASSOBRIO
+						Gesica S. Huppi
 					</p>
 				</VerticalTimelineElement>
-                <VerticalTimelineElement
+				<VerticalTimelineElement
 					className='vertical-timeline-element--work'
 					contentStyle={{ background: '#fff', color: 'black' }}
 					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-					date='2019 - Presente'
+					date='2007 - 2011'
 					iconStyle={{ background: '#febe39', color: '#fff' }}
 				>
-					<h3 className='vertical-timeline-element-title'>Marcos G. Carasso</h3>
+					<h3 className='vertical-timeline-element-title'>
+						Carolina F. Eusebio
+					</h3>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
 					<p>
-						GUILLERMO D. CAVIGLIASSO <br />
-						EDGARDO J. TAMBURELLI
+						Ricardo D. Falzetti
 						<br />
-						SILVINA ANGELETTI
+						V. Pablo Karakachoff
 						<br />
-						DEBORA S. COTS. REEMPLAZADA POR MARIANA M. MUSSO
+						Susana Acosta
 						<br />
-						JUAN PABLO MACAGNO
+						Stella M. Plaza
 						<br />
-						MAURO N. SALUSSO. REEPLAZADO POR MAURO CAMPAGNO
+						Eduardo C. Ottani
 						<br />
-						CLAUDIA S. VILLARRUEL
+						Jorge A. Mérida
+						<br />
+						M. Eugenia Rovetto
 					</p>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>
 						Tribunal de cuentas
 					</h4>
 					<p>
-						CARLOS R. BOSSIO
+						Alexis Malatini
 						<br />
-						GISELE L. GATICA
+						M. Fernanda Colomba
 						<br />
-						ALEJANDRO J. MASSOBRIO
+						M. Teresa Caffaratti
 					</p>
 				</VerticalTimelineElement>
-                <VerticalTimelineElement
+				<VerticalTimelineElement
 					className='vertical-timeline-element--work'
 					contentStyle={{ background: '#fff', color: 'black' }}
 					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-					date='2019 - Presente'
+					date='2003 - 2007'
 					iconStyle={{ background: '#febe39', color: '#fff' }}
 				>
-					<h3 className='vertical-timeline-element-title'>Marcos G. Carasso</h3>
+					<h3 className='vertical-timeline-element-title'>
+						Rody Wilson Guerreiro
+					</h3>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
 					<p>
-						GUILLERMO D. CAVIGLIASSO <br />
-						EDGARDO J. TAMBURELLI
+						Jorge Lazo
 						<br />
-						SILVINA ANGELETTI
+						María Eugenia Rovetto
 						<br />
-						DEBORA S. COTS. REEMPLAZADA POR MARIANA M. MUSSO
+						Marina Toledo de Rojo
 						<br />
-						JUAN PABLO MACAGNO
+						Hugo Massobrio
 						<br />
-						MAURO N. SALUSSO. REEPLAZADO POR MAURO CAMPAGNO
+						Marcos Carasso
 						<br />
-						CLAUDIA S. VILLARRUEL
+						Oscar Borra - Reemplazado por Denis Marchiscio
+						<br />
+						Laura Bongiovanni
 					</p>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>
 						Tribunal de cuentas
 					</h4>
 					<p>
-						CARLOS R. BOSSIO
+						César Gomez
 						<br />
-						GISELE L. GATICA
+						María Teresa Cafaratti
 						<br />
-						ALEJANDRO J. MASSOBRIO
+						Eduardo Bongiovanni
 					</p>
 				</VerticalTimelineElement>
-                <VerticalTimelineElement
+				<VerticalTimelineElement
 					className='vertical-timeline-element--work'
 					contentStyle={{ background: '#fff', color: 'black' }}
 					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-					date='2019 - Presente'
+					date='1999 - 2003'
 					iconStyle={{ background: '#febe39', color: '#fff' }}
 				>
-					<h3 className='vertical-timeline-element-title'>Marcos G. Carasso</h3>
+					<h3 className='vertical-timeline-element-title'>
+						Rody Wilson Guerreiro
+					</h3>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
 					<p>
-						GUILLERMO D. CAVIGLIASSO <br />
-						EDGARDO J. TAMBURELLI
+						Hugo Massobrio
 						<br />
-						SILVINA ANGELETTI
+						Marian Dadone
 						<br />
-						DEBORA S. COTS. REEMPLAZADA POR MARIANA M. MUSSO
+						Sandra Carezzano
 						<br />
-						JUAN PABLO MACAGNO
+						Marcos Carasso
 						<br />
-						MAURO N. SALUSSO. REEPLAZADO POR MAURO CAMPAGNO
+						Pablo Buffa
 						<br />
-						CLAUDIA S. VILLARRUEL
+						Amaro Sastre - Reemplazado por Ricardo Falzetti
 					</p>
 					<br />
 					<h4 className='vertical-timeline-element-subtitle'>
 						Tribunal de cuentas
 					</h4>
 					<p>
-						CARLOS R. BOSSIO
+						César Gomez
 						<br />
-						GISELE L. GATICA
+						Graciela Machucca
 						<br />
-						ALEJANDRO J. MASSOBRIO
+						Mariel Fuentes
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1995 - 1999'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Roberto D. Grosso</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Juan Soave - Reemplazado por Pablo Buffa
+						<br />
+						Alberto Bottino
+						<br />
+						Edmundo J. Vogler - Reemplazado por Roberto de Michiel
+						<br />
+						Hugo O. Oderda - Reemplazado por Elvira Becerra
+						<br />
+						Carolina Bossio
+						<br />
+						Cecilia Berardo - Reemplazada por Ricardo Falzetti
+						<br />
+						Liliana Chiapella
+						<br />
+					</p>
+					<p>
+						*Ante el fallecimiento del Sr. Intendente Roberto D. Grosso, asume
+						la intendencia la Sra. Carolina de Bossio y la Presidencia del
+						Concejo es asumida por la Concejal Cecilia Berardo.
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1991 - 1995'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Roberto D. Grosso</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Alberto Bottino
+						<br />
+						Juan H. Soave
+						<br />
+						Carolina E. de Bossio
+						<br />
+						Marisel Berrino - Reemplazada por Osmar Rovetto
+						<br />
+						Antonio F. Falco - Reemplazado por Rubén Zabala
+						<br />
+						Omar Bernabei
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1987 - 1991'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Susana del Bo</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Alberto Bottino
+						<br />
+						Juan Pedro Campagno
+						<br />
+						Antonio F. Falco
+						<br />
+						Jorge Merida
+						<br />
+						Gustavo R. Garino - Reemplazado por Osvaldo Antinori
+						<br />
+						Victor H. Baudino - Reemplazado por Miguel Actis
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1983 - 1987'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Victor Bossio</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Victor Baudino
+						<br />
+						Antonio Denguidard
+						<br />
+						Juan C. Macagno
+						<br />
+						Juan H. Soave
+						<br />
+						Susana del Bo de Luhning
+						<br />
+						Osvaldo Antinori
+					</p>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>
+						Tribunal de cuentas
+					</h4>
+					<p>
+						Reynaldo Ribotta
+						<br />
+						Cecilia Berardo
+						<br />
+						Carlos Iturrieta
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1973 - 1979'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Dr. Amaro Sastre</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Federico E. Luhning
+						<br />
+						Esteban Molineris
+						<br />
+						Roberto D. Grosso
+						<br />
+						Eduardo J. Ponzio
+						<br />
+						Fermín Falco - Reemplazado por Marta S. de Karakachoff
+						<br />
+						Federico F. Concari
+						<br />
+					</p>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>
+						Tribunal de cuentas
+					</h4>
+					<p>
+						Victor Baudino
+						<br />
+						Celso C. Caffaratti
 					</p>
 				</VerticalTimelineElement>
 			</VerticalTimeline>

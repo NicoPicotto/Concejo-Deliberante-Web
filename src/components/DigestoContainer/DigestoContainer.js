@@ -8,11 +8,11 @@ import { Button } from 'react-bootstrap';
 const DigestoContainer = ({search}) => {
 	const [digestoData, setDigestoData] = useState([]);
 	const [loading, setLoading] = useState(false);
-	const [moreDigesto, setMoreDigesto] = useState(4);
+	const [moreDigesto, setMoreDigesto] = useState(8);
 
 	//Función para cargar de a 3 noticias más
 	const loadMoreDigesto = () => {
-		setMoreDigesto(moreDigesto + 4);
+		setMoreDigesto(moreDigesto + 8);
 	};
 
 	useEffect(() => {

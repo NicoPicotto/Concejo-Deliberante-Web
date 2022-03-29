@@ -43,9 +43,9 @@ const SearchLegislacion = () => {
 					/>
 					<div className='leg-text-container'>
 						<div>
-							Podés buscar la normativa que te interese por{' '}
+							Podés buscar la normativa que te interese por:{' '}<br />
 							<Tippy content={<span>Por ejemplo: "Juventud"</span>}>
-								<span className='tooltip-word'>palabra clave</span>
+								<span className='tooltip-word'>Palabra clave</span>
 							</Tippy>
 							, por{' '}
 							<Tippy
@@ -53,18 +53,53 @@ const SearchLegislacion = () => {
 							>
 								<span className='tooltip-word'> año de sanción</span>
 							</Tippy>
-							,<br />
+							,
 							por{' '}
 							<Tippy content={<span>Por ejemplo: "057"</span>}>
 								<span className='tooltip-word'> número de ordenanza</span>
 							</Tippy>{' '}
-							y por{' '}
+							o por{' '}
 							<Tippy
 								content={
 									<span>
-										Podés elegir entre los temas:<br /> Organización Institucional<br /> Empleo público<br />
-										Documentación, Defensa Civil<br />Cultura y Educación<br />Presupuesto y Contrataciones<br />Contribuciones, Salud Pública<br />Promoción Social<br />Ejido Muncipal<br />Obras y servicios
-										públicos<br />Higiene urbana<br />Ordenamiento urbano y edificación<br />Tránsito<br />Transporte público<br />Industrias y comercios<br />Bromatología<br />Medio Ambiente<br />Moralidad<br />Poder de policía
+										Podés elegir entre los temas:
+										<br /> Organización Institucional
+										<br /> Empleo público
+										<br />
+										Documentación
+										<br />
+										Defensa Civil
+										<br />
+										Cultura y Educación
+										<br />
+										Presupuesto y Contrataciones
+										<br />
+										Contribuciones
+										<br /> Salud Pública
+										<br />
+										Promoción Social
+										<br />
+										Ejido Muncipal
+										<br />
+										Obras y servicios públicos
+										<br />
+										Higiene urbana
+										<br />
+										Ordenamiento urbano y edificación
+										<br />
+										Tránsito
+										<br />
+										Transporte público
+										<br />
+										Industrias y comercios
+										<br />
+										Bromatología
+										<br />
+										Medio Ambiente
+										<br />
+										Moralidad
+										<br />
+										Poder de policía
 									</span>
 								}
 							>
