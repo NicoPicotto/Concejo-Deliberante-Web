@@ -133,7 +133,7 @@
 .home-container {
   display: flex;
   padding: 2em;
-  height: 35em;
+  height: 32em;
   width: 100vw;
   justify-content: center;
 }
@@ -333,7 +333,7 @@
 .leg-landing-container {
   display: flex;
   padding: 2em;
-  height: 35em;
+  height: 32em;
   width: 100vw;
   justify-content: space-evenly;
   align-items: center;
@@ -393,7 +393,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: #febe39;
-  padding: 2em 2em;
+  padding: 1em 1em;
 }
 .leg-firebase-container .leg-container-button {
   background-color: #eb164d !important;
