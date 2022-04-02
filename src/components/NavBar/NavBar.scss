@@ -5,12 +5,21 @@
 	background-color: $color-primario;
 	width: 100vw;
 
+	.burger{
+		border: 2px solid white;
+		color: white;
+	}
+
 	.navbar-logo {
 		font-family: $fuente-primaria;
 		color: white;
 		text-decoration: none;
 		font-weight: bolder;
 		font-size: 0.9em;
+
+		@media (max-width: 720px){
+			font-size: 0.7em;
+		}
 	}
 
 	.navbar-logo:hover {
@@ -20,6 +29,10 @@
 	.navbar-links {
 		font-family: $fuente-primaria;
 		font-size: 0.9em;
+
+		@media (max-width: 720px){
+			font-size: 0.7em;
+		}
 	}
 
 	.navbar-link-button {

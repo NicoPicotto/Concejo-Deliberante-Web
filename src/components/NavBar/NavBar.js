@@ -13,7 +13,7 @@ const NavBar = () => {
 								HONORABLE CONCEJO DELIBERANTE
 							</Link>
 					</Navbar.Brand>
-					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+					<Navbar.Toggle aria-controls='responsive-navbar-nav' className='burger'/>
 					<Navbar.Collapse
 						id='responsive-navbar-nav'
 						className='justify-content-end'
