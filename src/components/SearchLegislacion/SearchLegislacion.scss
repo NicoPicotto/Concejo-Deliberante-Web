@@ -5,17 +5,33 @@
 	width: 100vw;
 	justify-content: center;
 
+	@media (max-width: 768px){
+		height: 50vh;
+		margin-top: 3em;
+	}
+
 	.leg-text-container {
 		display: flex;
 		width: 40%;
 		flex-direction: column;
 		justify-content: center;
 
+		@media (max-width: 768px){
+			width: 90%;
+			align-items: center;
+		}
+
 		.leg-title {
 			font-family: $fuente-primaria;
 			font-size: 1.5em;
 			font-weight: bolder;
 			margin-bottom: 0.5em;
+
+			@media (max-width: 1024px){
+				font-size: 1.2em;
+				text-align: center;
+				margin-bottom: 1em;
+			}
 		}
 
 		.leg-input {
@@ -29,6 +45,11 @@
 			border: 1px solid $color-secundario;
 			transition: 0.2s;
 
+			@media (max-width: 768px){
+				width: 90%;
+				font-size: 0.8em;
+			}
+
 			&:focus {
 				outline: 2px solid $color-secundario;
 			}
@@ -37,6 +58,7 @@
 		.home-dots {
 			width: 30%;
 			margin-bottom: 0.5em;
+
 		}
 
 		.leg-text-container {
@@ -44,6 +66,11 @@
 			font-family: $fuente-primaria;
 			width: 100%;
 			font-size: 0.9em;
+
+			@media (max-width: 768px){
+				text-align: center;
+				font-size: 0.8em;
+			}
 
 			.tooltip-word {
 				background-color: $color-secundario;
@@ -58,5 +85,9 @@
 		width: 25em;
 		align-items: center;
 		justify-content: flex-end;
+
+		@media (max-width: 768px){
+			display: none;
+		}
 	}
 }

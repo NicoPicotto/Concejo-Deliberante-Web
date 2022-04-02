@@ -34,5 +34,11 @@
         font-weight: bolder !important;
         opacity: 1 !important;
         color: white;
+
+        @media (max-width: 768px){
+            background-color: $color-primario;
+            padding: 0.5em;
+            margin-top: 0.5em;
+        }
     }
 }

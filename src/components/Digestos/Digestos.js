@@ -6,7 +6,7 @@ const Digestos = ({ data }) => {
 	const fecha = data.date.toDate().toLocaleDateString('es-ES');
 
 	return (
-		<div>
+		<div className='dig-card-master'>
 			<Card className='dig-card-container'>
 				<Card.Header className='dig-card-number'>
 					Ordenanza N° {data.number}

@@ -5,13 +5,14 @@
 	background-color: $color-primario;
 	width: 100vw;
 
-	@media (max-width: 720px){
+	@media (max-width: 720px) {
 		position: fixed;
 		z-index: 1000;
 		top: 0;
+		justify-content: center;
 	}
 
-	.burger{
+	.burger {
 		color: white;
 	}
 
@@ -22,7 +23,7 @@
 		font-weight: bolder;
 		font-size: 0.9em;
 
-		@media (max-width: 720px){
+		@media (max-width: 720px) {
 			font-size: 0.7em;
 		}
 	}
@@ -35,7 +36,7 @@
 		font-family: $fuente-primaria;
 		font-size: 0.9em;
 
-		@media (max-width: 720px){
+		@media (max-width: 720px) {
 			font-size: 0.7em;
 		}
 	}
@@ -47,6 +48,10 @@
 		text-decoration: none;
 		padding: 0.2em;
 		position: relative;
+
+		@media (max-width: 720px){
+			margin-bottom: 1em;
+		}
 
 		&:before {
 			content: '';
