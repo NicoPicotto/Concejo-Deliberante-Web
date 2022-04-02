@@ -5,7 +5,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 const NavBar = () => {
 	return (
-		<div>
+		<div className='nav-master'>
 			<Navbar
 				collapseOnSelect
 				expand='lg'

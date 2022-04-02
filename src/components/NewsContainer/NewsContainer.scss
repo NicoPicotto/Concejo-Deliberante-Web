@@ -10,6 +10,10 @@
 	background-color: $color-terciario;
 	padding: 2em 2em;
 
+	@media (max-width: 768px){
+		padding: 0.5em 0.5em;
+	}
+
 	.news-container-button {
 		@include boton-primario;
 		margin: 1em 1em;

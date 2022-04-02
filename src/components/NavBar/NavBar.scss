@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;410;900&display=swap');
 @import '../../Theme.scss';
 
-.navbar-container {
-	background-color: $color-primario;
-	width: 100vw;
-
+.nav-master {
 	@media (max-width: 720px) {
 		position: fixed;
 		z-index: 1000;
@@ -12,60 +9,65 @@
 		justify-content: center;
 	}
 
-	.burger {
-		color: white;
-	}
+	.navbar-container {
+		background-color: $color-primario;
+		width: 100vw;
 
-	.navbar-logo {
-		font-family: $fuente-primaria;
-		color: white;
-		text-decoration: none;
-		font-weight: bolder;
-		font-size: 0.9em;
-
-		@media (max-width: 720px) {
-			font-size: 0.7em;
-		}
-	}
-
-	.navbar-logo:hover {
-		color: white;
-	}
-
-	.navbar-links {
-		font-family: $fuente-primaria;
-		font-size: 0.9em;
-
-		@media (max-width: 720px) {
-			font-size: 0.7em;
-		}
-	}
-
-	.navbar-link-button {
-		color: white !important;
-		margin-left: 2em;
-		font-weight: bold;
-		text-decoration: none;
-		padding: 0.2em;
-		position: relative;
-
-		@media (max-width: 720px){
-			margin-bottom: 1em;
+		.burger {
+			color: white;
 		}
 
-		&:before {
-			content: '';
-			position: absolute;
-			left: 0;
-			bottom: 0;
-			width: 0;
-			height: 2px;
-			background-color: $color-secundario;
-			transition: width 0.2s ease-out;
+		.navbar-logo {
+			font-family: $fuente-primaria;
+			color: white;
+			text-decoration: none;
+			font-weight: bolder;
+			font-size: 0.9em;
+
+			@media (max-width: 720px) {
+				font-size: 0.7em;
+			}
 		}
 
-		&:hover:before {
-			width: 100%;
+		.navbar-logo:hover {
+			color: white;
+		}
+
+		.navbar-links {
+			font-family: $fuente-primaria;
+			font-size: 0.9em;
+
+			@media (max-width: 720px) {
+				font-size: 0.7em;
+			}
+		}
+
+		.navbar-link-button {
+			color: white !important;
+			margin-left: 2em;
+			font-weight: bold;
+			text-decoration: none;
+			padding: 0.2em;
+			position: relative;
+
+			@media (max-width: 720px) {
+				margin-bottom: 1em;
+			}
+
+			&:before {
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 0;
+				height: 2px;
+				background-color: $color-secundario;
+				transition: width 0.2s ease-out;
+			}
+
+			&:hover:before {
+				width: 100%;
+			}
 		}
 	}
 }

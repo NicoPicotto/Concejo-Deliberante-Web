@@ -9,7 +9,7 @@
 
 	@media (max-width: 768px){
 		height: 50vh;
-		margin-top: 3em;
+		margin: 3em 0 3em;
 	}
 
 	.home-text-container {
@@ -46,6 +46,10 @@
 		}
 		.home-dots {
 			width: 30%;
+
+			@media (max-width: 768px){
+				margin-bottom: -3em;
+			}
 		}
 	}
 
