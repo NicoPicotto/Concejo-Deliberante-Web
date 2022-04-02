@@ -31,7 +31,7 @@ const Footer = () => {
 			</div>
 			<div className='footer-logo-container'>
 				<a href='https://www.generalcabrera.gob.ar/' target='_blank'>
-					<img src={logoMuni} className='footer-logo' />
+					<img src={logoMuni} className='footer-logo' alt='Logo Municipalidad de General Cabrera' />
 				</a>
 			</div>
 			<div className='footer-form-container'>

@@ -9,8 +9,8 @@
 	align-items: center;
 	padding: 2em 2em;
 
-	@media (max-width: 720px){
-		flex-direction: column;
+	@media (max-width: 720px) {
+		flex-direction: column-reverse;
 	}
 
 	.footer-logo-container {
@@ -20,13 +20,13 @@
 		margin-left: 2em;
 		margin-right: 2em;
 
-		@media (max-width: 720px){
-			display: none;
-		}
-
 		.footer-logo {
 			display: flex;
 			width: 15em;
+
+			@media (max-width: 1024px){
+				width: 10em;
+			}
 		}
 	}
 
@@ -39,8 +39,9 @@
 		flex-direction: column;
 		align-items: flex-end;
 
-		@media (max-width: 720px){
-			display: none;
+		@media (max-width: 720px) {
+			width: 80%;
+			font-size: 0.7em;
 		}
 
 		ul {
@@ -49,7 +50,7 @@
 			margin-bottom: 0;
 			text-align: right;
 
-			@media (max-width: 720px){
+			@media (max-width: 720px) {
 				text-align: center;
 			}
 		}
@@ -66,11 +67,17 @@
 			display: flex;
 			justify-content: right;
 			width: 100%;
-			
 
-			a{
+			@media (max-width: 720px) {
+				justify-content: center;
+			}
+
+			a {
 				text-decoration: none;
-				
+
+				@media (max-width: 720px) {
+					margin: 0;
+				}
 			}
 
 			.rrss-icons {
@@ -79,7 +86,12 @@
 				font-size: 1.2em;
 				transition: 0.2s;
 				color: white;
-				
+
+				@media (max-width: 720px) {
+					text-align: center;
+					margin: 1em 1em 1em 1em;
+					font-size: 1.5em;
+				}
 
 				&:hover {
 					color: $color-secundario;
@@ -93,7 +105,7 @@
 		width: 30%;
 		justify-content: left;
 
-		@media (max-width: 720px){
+		@media (max-width: 720px) {
 			width: 100%;
 			justify-content: center;
 		}
@@ -104,7 +116,7 @@
 			flex-direction: column;
 			padding: 1.5em 0 1.5em;
 
-			@media (max-width: 720px){
+			@media (max-width: 720px) {
 				width: 90%;
 			}
 		}
@@ -121,8 +133,8 @@
 				border: none;
 				padding: 0.3em;
 
-				@media (max-width: 720px){
-					font-size: 0.9em;
+				@media (max-width: 720px) {
+					font-size: 0.75em;
 				}
 			}
 		}
@@ -138,8 +150,8 @@
 			border: none;
 			padding: 0.3em;
 
-			@media (max-width: 720px){
-				font-size: 0.9em;
+			@media (max-width: 720px) {
+				font-size: 0.75em;
 			}
 		}
 
@@ -151,12 +163,12 @@
 			margin-top: 0.3em;
 			transition: 0.2s;
 
-			@media (max-width: 720px){
-				font-size: 0.9em;
+			@media (max-width: 720px) {
+				font-size: 0.75em;
 				margin-top: 0.5em;
 			}
 
-			&:hover{
+			&:hover {
 				background-color: $color-secundario;
 			}
 		}
