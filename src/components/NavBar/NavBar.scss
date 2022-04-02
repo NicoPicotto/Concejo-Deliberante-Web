@@ -5,8 +5,13 @@
 	background-color: $color-primario;
 	width: 100vw;
 
+	@media (max-width: 720px){
+		position: fixed;
+		z-index: 1000;
+		top: 0;
+	}
+
 	.burger{
-		border: 2px solid white;
 		color: white;
 	}
 

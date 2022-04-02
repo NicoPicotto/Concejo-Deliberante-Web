@@ -1,19 +1,31 @@
 import React from 'react';
 import { Nav, Container, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import {AiOutlineMenu} from "react-icons/ai"
 
 const NavBar = () => {
 	return (
 		<div>
-			<Navbar collapseOnSelect expand='lg' className='navbar-container' variant="danger">
+			<Navbar
+				collapseOnSelect
+				expand='lg'
+				className='navbar-container'
+				variant='danger'
+			>
 				<Container>
 					<Navbar.Brand to='/'>
-					<Link to='/' variant='light' className='navbar-logo'>
-								HONORABLE CONCEJO DELIBERANTE
-							</Link>
+						<Link to='/' variant='light' className='navbar-logo'>
+							HONORABLE CONCEJO DELIBERANTE
+						</Link>
 					</Navbar.Brand>
-					<Navbar.Toggle aria-controls='responsive-navbar-nav' className='burger'/>
+					<Navbar.Toggle
+						aria-controls='responsive-navbar-nav'
+						className='burger'
+					>
+						<span>
+						<AiOutlineMenu />
+						</span>
+					</Navbar.Toggle>
 					<Navbar.Collapse
 						id='responsive-navbar-nav'
 						className='justify-content-end'
@@ -22,10 +34,18 @@ const NavBar = () => {
 							<Link to='/' variant='light' className='navbar-link-button'>
 								HOME
 							</Link>
-							<Link to='/institucional' variant='light' className='navbar-link-button'>
+							<Link
+								to='/institucional'
+								variant='light'
+								className='navbar-link-button'
+							>
 								INSTITUCIONAL
 							</Link>
-							<Link to='/legislacion' variant='light' className='navbar-link-button'>
+							<Link
+								to='/legislacion'
+								variant='light'
+								className='navbar-link-button'
+							>
 								LEGISLACIÓN
 							</Link>
 						</Nav>
