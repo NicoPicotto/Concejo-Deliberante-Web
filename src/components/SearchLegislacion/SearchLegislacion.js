@@ -4,6 +4,7 @@ import dots from '../../img/dots-01.png';
 import LottieSearch from '../../Lottie/98877-search.json';
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
+import 'tippy.js/animations/scale.css';
 import DigestoContainer from '../DigestoContainer/DigestoContainer';
 
 const options = {
@@ -44,21 +45,37 @@ const SearchLegislacion = () => {
 					<div className='leg-text-container'>
 						<div>
 							Podés buscar la normativa que te interese por: <br />
-							<Tippy content={<span>Por ejemplo: "Juventud"</span>}>
+							<Tippy
+								animation={'scale'}
+								placement={'bottom'}
+								interactive={true}
+								content={<span>Por ejemplo: "Juventud"</span>}
+							>
 								<span className='tooltip-word'>Palabra clave</span>
 							</Tippy>
 							, por{' '}
 							<Tippy
+								animation={'scale'}
+								placement={'bottom'}
+								interactive={true}
 								content={<span>En formato AAAA. Por ejemplo: "2007"</span>}
 							>
 								<span className='tooltip-word'> año de sanción</span>
 							</Tippy>
 							, por{' '}
-							<Tippy content={<span>Por ejemplo: "057"</span>}>
+							<Tippy
+								animation={'scale'}
+								placement={'bottom'}
+								interactive={true}
+								content={<span>Por ejemplo: "057"</span>}
+							>
 								<span className='tooltip-word'> número de ordenanza</span>
 							</Tippy>{' '}
 							o por{' '}
 							<Tippy
+								animation={'scale'}
+								placement={'bottom'}
+								interactive={true}
 								content={
 									<span>
 										Podés elegir entre los temas:

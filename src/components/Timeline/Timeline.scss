@@ -37,8 +37,9 @@
 
         @media (max-width: 768px){
             background-color: $color-primario;
-            padding: 0.5em;
+            padding: 0.3em 0.5em 0.3em 0.5em;
             margin-top: 0.5em;
+            justify-content: center;
         }
     }
 }
