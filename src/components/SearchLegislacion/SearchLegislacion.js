@@ -67,7 +67,7 @@ const SearchLegislacion = () => {
 								animation={'scale'}
 								placement={'bottom'}
 								interactive={true}
-								content={<span>Por ejemplo: "057"</span>}
+								content={<span>Por ejemplo: "057" o "057/96"</span>}
 							>
 								<span className='tooltip-word'> número de ordenanza</span>
 							</Tippy>{' '}
