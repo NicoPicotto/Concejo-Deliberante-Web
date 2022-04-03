@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import logoMuni from '../../img/logomuni-01.png';
-import {AiFillFacebook, AiFillInstagram, AiFillYoutube} from "react-icons/ai"
+import { AiFillFacebook, AiFillInstagram, AiFillYoutube } from 'react-icons/ai';
+import emailjs from '@emailjs/browser';
 
 const Footer = () => {
+	const form = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm(
+				'service_qjp9rd5',
+				'template_ewrwqoa',
+				form.current,
+				'l93qFEKwoTv3F-fzb'
+			)
+			.then(
+				(result) => {
+					alert('¡Gracias por tu mensaje! Te responderemos a la brevedad.');
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+	};
+
 	return (
 		<div className='footer-container'>
-
-
 			<div className='footer-datos-contaier'>
 				<ul>
 					<li>
@@ -24,18 +45,28 @@ const Footer = () => {
 					</li>
 				</ul>
 				<div className='rrss-icons-container'>
-					<a href=''><AiFillFacebook className='rrss-icons'/></a>
-					<a href=''><AiFillInstagram className='rrss-icons'/></a>
-					<a href=''><AiFillYoutube className='rrss-icons'/></a>
+					<a href=''>
+						<AiFillFacebook className='rrss-icons' />
+					</a>
+					<a href=''>
+						<AiFillInstagram className='rrss-icons' />
+					</a>
+					<a href=''>
+						<AiFillYoutube className='rrss-icons' />
+					</a>
 				</div>
 			</div>
 			<div className='footer-logo-container'>
 				<a href='https://www.generalcabrera.gob.ar/' target='_blank'>
-					<img src={logoMuni} className='footer-logo' alt='Logo Municipalidad de General Cabrera' />
+					<img
+						src={logoMuni}
+						className='footer-logo'
+						alt='Logo Municipalidad de General Cabrera'
+					/>
 				</a>
 			</div>
 			<div className='footer-form-container'>
-				<form className='form-container'>
+				<form className='form-container' ref={form} onSubmit={sendEmail}>
 					<h3 className='form-title'> ¡Dejanos tu mensaje!</h3>
 					<div className='input-group'>
 						<input

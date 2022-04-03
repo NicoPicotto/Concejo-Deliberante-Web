@@ -22,7 +22,7 @@ const LandingSecond = () => {
 			<div className='home-text-container'>
 				<h1 className='home-title'>Información clara y transparente</h1>
 				<h2 className='home-text'>
-					Contamos con un bucador para que puedas consultar el digesto y
+					Contamos con un buscador para que puedas consultar el digesto y
 					mantenerte informado sobre las ordenanzas sancionadas hasta la fecha.
 				</h2>
 				<Link to='/legislacion'>
