@@ -689,10 +689,13 @@
   }
 }
 .dig-card-master .dig-card-container .dig-card-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #eb164d;
   border-radius: 1em 1em 0 0 !important;
   color: white;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .dig-card-master .dig-card-container .dig-card-text {
   font-size: 0.8em;
@@ -710,11 +713,6 @@
   font-style: italic;
   padding: 0.1em;
 }
-.dig-card-master .dig-card-container .dig-card-date {
-  font-size: 0.8em;
-  color: grey;
-  font-style: italic;
-}
 .dig-card-master .dig-card-container .dig-card-download {
   background-color: #eb164d !important;
   font-size: 0.9em;
@@ -728,6 +726,36 @@
 }
 .dig-card-master .dig-card-container .dig-card-download:hover {
   background-color: #b8143d !important;
+}
+.dig-card-master .dig-card-container .row-2 {
+  align-items: center;
+}
+.dig-card-master .dig-card-container .row-2 .dig-card-date {
+  font-size: 0.8em;
+  color: grey;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-right: 1em;
+}
+.dig-card-master .dig-card-container .row-2 .dig-card-vigente {
+  font-size: 0.7em;
+  border-radius: 1em;
+  color: green;
+  border: 1px solid green;
+  padding: 0.2em 0.5em 0.2em 0.4em;
+  font-style: italic;
+  height: fit-content;
+  text-align: center;
+}
+.dig-card-master .dig-card-container .row-2 .dig-card-vigente-false {
+  font-size: 0.7em;
+  border: 1px solid red;
+  color: red;
+  padding: 0.2em 0.5em 0.2em 0.4em;
+  border-radius: 1em;
+  font-style: italic;
+  height: fit-content;
+  text-align: center;
 }
 
 .leg-button {

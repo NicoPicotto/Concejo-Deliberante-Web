@@ -1,66 +1,95 @@
-.dig-card-master{
-
-	@media (max-width: 768px){
+.dig-card-master {
+	@media (max-width: 768px) {
 		display: flex;
 		width: 90%;
 		justify-content: center;
 	}
 
-.dig-card-container {
-	box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.22);
-	display: flex;
-	margin: 1.5em;
-	width: 15vw;
-	min-height: fit-content;
-	font-family: $fuente-primaria;
-	border: none !important;
-	border-radius: 1em !important;
-
-	@media (max-width: 1024px){
-		width: 25vw;
-	}
-
-	@media (max-width: 768px){
-		min-width: 100%;
-	}
-
-	.dig-card-number {
-		background-color: $color-primario;
-		border-radius: 1em 1em 0 0 !important;
-		color: white;
-		font-size: 0.8em;
-	}
-
-	.dig-card-text {
-		font-size: 0.8em;
-        font-weight: bolder;
-	}
-
-	.dig-card-body {
+	.dig-card-container {
+		box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.22);
 		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	}
+		margin: 1.5em;
+		width: 15vw;
+		min-height: fit-content;
+		font-family: $fuente-primaria;
+		border: none !important;
+		border-radius: 1em !important;
 
-	.dig-card-tema {
-		font-size: 0.8em;
-		background-color: $color-secundario;
-		width: fit-content;
-        font-style: italic;
-        padding: 0.1em;
-	}
+		@media (max-width: 1024px) {
+			width: 25vw;
+		}
 
-	.dig-card-date {
-		font-size: 0.8em;
-		color: grey;
-		font-style: italic;
-	}
+		@media (max-width: 768px) {
+			min-width: 100%;
+		}
 
-	.dig-card-download {
-		@include boton-primario;
-		font-size: 0.8em;
-		border-radius: 0 0 1em 1em;
+		.dig-card-number {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: $color-primario;
+			border-radius: 1em 1em 0 0 !important;
+			color: white;
+			font-size: 0.9em;
+		}
+
+		.dig-card-text {
+			font-size: 0.8em;
+			font-weight: bolder;
+		}
+
+		.dig-card-body {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.dig-card-tema {
+			font-size: 0.8em;
+			background-color: $color-secundario;
+			width: fit-content;
+			font-style: italic;
+			padding: 0.1em;
+		}
+
+		.dig-card-download {
+			@include boton-primario;
+			font-size: 0.8em;
+			border-radius: 0 0 1em 1em;
+		}
+
+		.row-2 {
+			align-items: center;
+
+			.dig-card-date {
+				font-size: 0.8em;
+				color: grey;
+				font-style: italic;
+				margin-bottom: 0;
+				margin-right: 1em;
+			}
+
+			.dig-card-vigente {
+				font-size: 0.7em;
+				border-radius: 1em;
+				color: green;
+				border: 1px solid green;
+				padding: 0.2em 0.5em 0.2em 0.4em;
+				font-style: italic;
+				height: fit-content;
+				text-align: center;
+			}
+
+			.dig-card-vigente-false {
+				font-size: 0.7em;
+				border: 1px solid red;
+				color: red;
+				padding: 0.2em 0.5em 0.2em 0.4em;
+				border-radius: 1em;
+				font-style: italic;
+				height: fit-content;
+				text-align: center;
+			}
+		}
 	}
 }
-}
-
