@@ -10,7 +10,6 @@ const NewsContainer = () => {
 	const [loading, setLoading] = useState(false);
 	const [moreNews, setMoreNews] = useState(3);
 
-	//Función para cargar de a 3 noticias más
 	const loadMoreNews = () => {
 		setMoreNews(moreNews + 3);
 	};
@@ -19,7 +18,11 @@ const NewsContainer = () => {
 		const getNews = async () => {
 			setLoading(true);
 			const docs = [];
-			const q = query(collection(db, 'news'), orderBy('date', "desc"), limit(moreNews));
+			const q = query(
+				collection(db, 'news'),
+				orderBy('date', 'desc'),
+				limit(moreNews)
+			);
 			const querySnapshot = await getDocs(q);
 			querySnapshot.forEach((doc) => {
 				docs.push({ ...doc.data(), id: doc.id });

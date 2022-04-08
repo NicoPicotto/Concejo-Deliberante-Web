@@ -17,7 +17,6 @@ const DigestoContainer = ({ search }) => {
 	const [loading, setLoading] = useState(false);
 	const [moreDigesto, setMoreDigesto] = useState(10);
 
-	//Función para cargar de a 3 noticias más
 	const loadMoreDigesto = () => {
 		setMoreDigesto(moreDigesto + 10);
 	};

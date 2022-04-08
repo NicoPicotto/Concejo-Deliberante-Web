@@ -45,13 +45,13 @@ const Footer = () => {
 					</li>
 				</ul>
 				<div className='rrss-icons-container'>
-					<a href=''>
+					<a href='https://www.facebook.com/enteratecabrera' target='_blank'>
 						<AiFillFacebook className='rrss-icons' />
 					</a>
-					<a href=''>
+					<a href='https://www.instagram.com/enteratecabrera' target='_blank'>
 						<AiFillInstagram className='rrss-icons' />
 					</a>
-					<a href=''>
+					<a href='https://www.youtube.com/channel/UCXOr09Cj2HeFsORM-QiHV5w' target='_blank'>
 						<AiFillYoutube className='rrss-icons' />
 					</a>
 				</div>

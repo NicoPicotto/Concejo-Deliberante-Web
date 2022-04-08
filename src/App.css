@@ -146,6 +146,14 @@
 .news-card-master .news-card-container .card-news-button:hover {
   background-color: #b8143d !important;
 }
+.news-card-master .news-card-container .card-news-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.news-card-master .news-card-container .card-news-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 .news-list-container {
   display: flex;
@@ -181,6 +189,14 @@
 }
 .news-container .news-container-button:hover {
   background-color: #b8143d !important;
+}
+.news-container .news-container-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.news-container .news-container-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .spinner {
@@ -522,6 +538,14 @@
 .news-detail .news-detail-text .news-detail-button:hover {
   background-color: #b8143d !important;
 }
+.news-detail .news-detail-text .news-detail-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.news-detail .news-detail-text .news-detail-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .news-detail .news-img-container {
   width: 30%;
 }
@@ -654,11 +678,20 @@
 .leg-firebase-container .leg-container-button:hover {
   background-color: #b8143d !important;
 }
+.leg-firebase-container .leg-container-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.leg-firebase-container .leg-container-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 .digesto-list-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 90%;
 }
 
 @media (max-width: 768px) {
@@ -678,7 +711,7 @@
   border: none !important;
   border-radius: 1em !important;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
   .dig-card-master .dig-card-container {
     width: 25vw;
   }
@@ -727,6 +760,14 @@
 .dig-card-master .dig-card-container .dig-card-download:hover {
   background-color: #b8143d !important;
 }
+.dig-card-master .dig-card-container .dig-card-download:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dig-card-master .dig-card-container .dig-card-download:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .dig-card-master .dig-card-container .row-2 {
   align-items: center;
 }
@@ -770,6 +811,14 @@
 }
 .leg-button:hover {
   background-color: #b8143d !important;
+}
+.leg-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.leg-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .timeline-container {
