@@ -24,7 +24,7 @@
 			display: flex;
 			width: 15em;
 
-			@media (max-width: 1024px){
+			@media (max-width: 1024px) {
 				width: 10em;
 			}
 		}
@@ -162,6 +162,8 @@
 			padding: 0.3em;
 			margin-top: 0.3em;
 			transition: 0.2s;
+			font-family: 'Raleway', sans-serif;
+			background-color: rgb(231, 231, 231);
 
 			@media (max-width: 720px) {
 				font-size: 0.75em;
