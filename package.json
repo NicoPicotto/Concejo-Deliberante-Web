@@ -1,5 +1,6 @@
 {
   "name": "concejo-web",
+  "homepage": "https://concejocabrera.gob.ar/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
