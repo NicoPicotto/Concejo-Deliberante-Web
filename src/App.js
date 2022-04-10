@@ -10,10 +10,12 @@ import Error from './views/Error';
 import NavBar from './components/NavBar/NavBar';
 import NewsDetailView from './views/NewsDetailView';
 import Footer from './components/Footer/Footer';
+import ScrolToTop from './components/ScrollToTop/ScrollToTop';
 
 const App = () => {
 	return (
 		<Router>
+			<ScrolToTop />
 			<div className='App'>
 				<NavBar />
 				<Routes>
