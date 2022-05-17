@@ -2,7 +2,6 @@ import React from 'react';
 import Lottie from 'lottie-react';
 import lottieHomeSecond from '../../Lottie/lf30_editor_g7nojeb8.json';
 import { Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
 const options = {
 	animationData: lottieHomeSecond,
@@ -22,12 +21,11 @@ const LandingSecond = () => {
 			<div className='home-text-container'>
 				<h1 className='home-title'>Información clara y transparente</h1>
 				<h2 className='home-text'>
-					Contamos con un buscador para que puedas consultar el digesto y
-					mantenerte informado sobre las ordenanzas sancionadas hasta la fecha.
+					Accedé a todos los Boletines Oficiales emitidos por la Municipalidad de General Cabrera.
 				</h2>
-				<Link to='/legislacion'>
-					<Button className='leg-button'>Consultar el digesto</Button>
-				</Link>
+				<a href="https://www.generalcabrera.gob.ar/legislacion/" target='_blank'>
+					<Button className='leg-button'>Ver boletines</Button>
+				</a>
 			</div>
 		</div>
 	);

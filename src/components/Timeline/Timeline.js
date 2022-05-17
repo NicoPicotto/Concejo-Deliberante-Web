@@ -1,4 +1,3 @@
-import { Button } from 'bootstrap';
 import React from 'react';
 import {
 	VerticalTimeline,
@@ -357,6 +356,15 @@ const Timeline = () => {
 					className='vertical-timeline-element--work'
 					contentStyle={{ background: '#fff', color: 'black' }}
 					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1979 - 1983'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Roberto D. Grosso</h3>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
 					date='1973 - 1979'
 					iconStyle={{ background: '#febe39', color: '#fff' }}
 				>
@@ -386,6 +394,349 @@ const Timeline = () => {
 						<br />
 						Celso C. Caffaratti
 					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1966 - 1973'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Dr. Amaro Sastre</h3>
+					<br />
+					<p>De intervención.</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1963 - 1966'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>
+						Edgardo R. M. Grosso
+					</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Cesar J. Menichetti
+						<br />
+						Esteban Molineri
+						<br />
+						Federico Luhning
+						<br />
+						José E. Plaza
+						<br />
+						Julio P. Harstein
+						<br />
+						Enrique Guglielmi
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1962 - 1963'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Marcelo Bonet</h3>
+					<br />
+					<p>De intervención.</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1958 - 1962'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Manuel Toia</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Italo Sonzini
+						<br />
+						Ricardo Guelfi
+						<br />
+						Bautista Audissio
+						<br />
+						Pedro Bonisconti
+						<br />
+						Evaristo L. Peralta
+						<br />
+						Manuel Lobo
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1955 - 1958'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>
+						Cesar J. Menichetti
+					</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Marcelo Bonett
+						<br />
+						Alberto Scaraffia
+						<br />
+						Huniverso Cabrera
+						<br />
+						Federico F. Concari
+						<br />
+						Rolando L.Chiapella (No asume su cargo. Renuncia.)
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1952 - 1955'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Juan P. Garimaldi</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Cesar Menichetti
+						<br />
+						José Abrile
+						<br />
+						Huniverso Cabrera
+						<br />
+						Jorge Villar
+						<br />
+						Anibal Giglio Tos
+						<br />
+						Bienvenido Arguelles
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1948 - 1952'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Arturo Porta</h3>
+					<br />
+					<p>De intervención.</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1946 - 1948'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>
+						Alejandro M. Alfonso
+					</h3>
+					<br />
+					<p>De intervención.</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1940 - 1946'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Cesar Menichetti</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Leopoldo Peralta
+						<br />
+						Ismael Civelli
+						<br />
+						José Botino
+						<br />
+						Fausto Rossi
+						<br />
+						Reginaldo Aguirre
+						<br />
+						Eduardo Fattori
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1936 - 1940'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Hercules Cima</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Pablo Malatini
+						<br />
+						Damian Sandrini
+						<br />
+						José Bianco
+						<br />
+						Martín Beckhaus
+						<br />
+						Enrique Concari
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1936 - 1936'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>José E. Ramos</h3>
+					<br />
+					<p>De intervención.</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1932 - 1936'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>
+						Fernando Garimaldi
+					</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						José Gardien
+						<br />
+						Gustavo Kulhmann
+						<br />
+						Teobaldo Giglio Tos
+						<br />
+						Atilio Osinari
+						<br />
+						Damian Sandrini
+						<br />
+						Cesar Garibaldi
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1930 - 1932'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Martín Backhaus</h3>
+					<br />
+					<p>De intervención.</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1929 - 1930'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>José Cervino</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Domingo R. Chiaramello
+						<br />
+						Pedro Rubiolo
+						<br />
+						Abraham Taimicc
+						<br />
+						Pablo Malatini
+						<br />
+						Miguel Rosso
+						<br />
+						José Galindez
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1928 - 1929'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>
+						José M. Caffaratti
+					</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Bautista Cervino
+						<br />
+						Domingo R. Chiaramello
+						<br />
+						Pedro Rubiolo
+						<br />
+						Abraham Taimicc
+						<br />
+						Pablo Malatini
+						<br />
+						Miguel Rosso
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1925 - 1928'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Martín Backhaus</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Julian Lapeña
+						<br />
+						Humberto Piazza
+						<br />
+						Juan Vogler
+						<br />
+						Pedro Rubiolo
+						<br />
+						Pablo Malatini
+						<br />
+						Miguel Rosso
+						<br />
+						<br />
+					</p>
+					<h4 className='vertical-timeline-element-subtitle'>Reemplazantes</h4>
+					<p>
+						Andrés Bianco
+						<br />
+						Mario Canevarolo
+						<br />
+						Antonio Ghiglione
+						<br />
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='1920 - 1925'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>Carlos Pudicomb</h3>
+					<br />
+					<p>Presidente Comisión de Fomento.</p>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
 		</div>
