@@ -21,9 +21,13 @@ const LandingSecond = () => {
 			<div className='home-text-container'>
 				<h1 className='home-title'>Información clara y transparente</h1>
 				<h2 className='home-text'>
-					Accedé a todos los Boletines Oficiales emitidos por la Municipalidad de General Cabrera.
+					Accedé a todos los Boletines Oficiales emitidos por la Municipalidad
+					de General Cabrera.
 				</h2>
-				<a href="https://www.generalcabrera.gob.ar/legislacion/" target='_blank'>
+				<a
+					href='https://prueba.generalcabrera.gob.ar/wordpress/index.php/legislacion/'
+					target='_blank'
+				>
 					<Button className='leg-button'>Ver boletines</Button>
 				</a>
 			</div>
