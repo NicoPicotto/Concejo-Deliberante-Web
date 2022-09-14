@@ -39,30 +39,30 @@ const DigestoContainer = ({ search }) => {
 				setDigestoData(docs);
 			};
 			getDigesto();
+			
 		} else {
 			const getDigesto = async () => {
-				setLoading(true);
 				const docs = [];
 				const q = query(
 					collection(db, 'digesto'),
 					where('keywords', 'array-contains', search)
-					// orderBy('date', 'desc'),
-					// limit(moreDigesto)
 				);
 				const querySnapshot = await getDocs(q);
 				querySnapshot.forEach((doc) => {
 					docs.push({ ...doc.data(), id: doc.id });
 				});
-				setLoading(false);
 				setDigestoData(docs);
 			};
 			getDigesto();
+			
 		}
 	}, [moreDigesto, search]);
 
+
+
 	return (
 		<div className='leg-firebase-container'>
-			<DigestoList data={digestoData} search={search} />
+			<DigestoList data={digestoData} />
 			{loading && <Loading />}
 			<Button className='leg-container-button' onClick={loadMoreDigesto}>
 				Cargar más documentos

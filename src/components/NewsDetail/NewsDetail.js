@@ -10,7 +10,7 @@ const NewsDetail = ({ data }) => {
 		<div className='news-detail'>
 			<div className='news-detail-text'>
 				<h1>{data.title}</h1>
-				<p>{data.content}</p>
+				<p dangerouslySetInnerHTML={{ __html: data.content }}></p>
 				<img src={dots} />
 				<h3>Fecha de publicación: {fecha}</h3>
 				<Link to='/'>

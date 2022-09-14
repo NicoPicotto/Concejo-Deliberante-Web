@@ -1,7 +1,8 @@
 import React from 'react';
 import Digestos from '../Digestos/Digestos';
 
-const DigestoList = ({ data, search }) => {
+const DigestoList = ({ data }) => {
+
 	return (
 		<div className='digesto-list-container'>
 			{data.map((news) => {
