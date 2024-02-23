@@ -451,7 +451,7 @@
   transition: 0.2s;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  background-color: #e7e7e7;
+  background-color: rgb(231, 231, 231);
   border-radius: 0;
   color: black;
 }
@@ -569,9 +569,9 @@
 .leg-landing-container {
   display: flex;
   padding: 2em;
-  height: 65vh;
+  height: 40vh;
   width: 100vw;
-  justify-content: center;
+  justify-content: space-around;
 }
 @media (max-width: 768px) {
   .leg-landing-container {
@@ -672,26 +672,102 @@
   background-color: #febe39;
   padding: 1em 1em;
 }
-.leg-firebase-container .leg-container-button {
-  background-color: #eb164d !important;
+
+.leg-landing-container {
+  display: flex;
+  padding: 2em;
+  height: 40vh;
+  width: 100vw;
+  background-color: white;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .leg-landing-container {
+    height: 50vh;
+    margin: 3em 0 3em;
+  }
+}
+.leg-landing-container .leg-text-container {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .leg-landing-container .leg-text-container {
+    width: 90%;
+    align-items: center;
+  }
+}
+.leg-landing-container .leg-text-container .leg-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3em;
+  font-weight: bolder;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 1024px) {
+  .leg-landing-container .leg-text-container .leg-title {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .leg-landing-container .leg-text-container .leg-title {
+    font-size: 1.1em;
+  }
+}
+.leg-landing-container .leg-text-container .leg-input {
+  display: flex;
+  padding: 1em;
   font-size: 0.9em;
   font-family: "Raleway", sans-serif;
-  border: none !important;
+  border-radius: 1.5em;
+  color: black;
+  margin-bottom: 1em;
+  border: 1px solid #febe39;
   transition: 0.2s;
+}
+@media (max-width: 768px) {
+  .leg-landing-container .leg-text-container .leg-input {
+    width: 90%;
+    font-size: 0.75em;
+  }
+}
+.leg-landing-container .leg-text-container .leg-input:focus {
+  outline: 2px solid #febe39;
+}
+.leg-landing-container .leg-text-container .home-dots {
+  width: 30%;
+  margin-bottom: 0.5em;
+}
+.leg-landing-container .leg-text-container .leg-text-container {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  font-size: 0.9em;
+}
+@media (max-width: 768px) {
+  .leg-landing-container .leg-text-container .leg-text-container {
+    text-align: center;
+    font-size: 0.75em;
+  }
+}
+.leg-landing-container .leg-text-container .leg-text-container .tooltip-word {
+  background-color: #febe39;
+  font-weight: bold;
+  padding: 0 0.2em;
+}
+.leg-landing-container .leg-img-container {
+  display: flex;
+  width: 25em;
   align-items: center;
-  justify-content: center;
-  margin: 1em 1em;
+  justify-content: flex-end;
 }
-.leg-firebase-container .leg-container-button:hover {
-  background-color: #b8143d !important;
-}
-.leg-firebase-container .leg-container-button:active {
-  outline: none !important;
-  box-shadow: none !important;
-}
-.leg-firebase-container .leg-container-button:focus {
-  outline: none !important;
-  box-shadow: none !important;
+@media (max-width: 768px) {
+  .leg-landing-container .leg-img-container {
+    display: none;
+  }
 }
 
 .digesto-list-container {
@@ -699,6 +775,31 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 90%;
+  flex-direction: column;
+  padding-block: 1em;
+}
+.digesto-list-container .table {
+  font-size: small;
+  font-family: "Raleway", sans-serif;
+}
+.digesto-list-container .table thead {
+  text-transform: uppercase;
+}
+.digesto-list-container .table tr {
+  border-color: black;
+}
+.digesto-list-container .table td {
+  background-color: rgba(255, 255, 255, 0.364);
+}
+.digesto-list-container .table .table-title {
+  max-width: 70ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+}
+.digesto-list-container .table .centered {
+  text-align: center;
 }
 
 @media (max-width: 768px) {

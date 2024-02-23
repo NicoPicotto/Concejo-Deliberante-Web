@@ -1,6 +1,36 @@
-.digesto-list-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 90%;
+.digesto-list-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90%;
+	flex-direction: column;
+	padding-block: 1em;
+
+	.table {
+		font-size: small;
+		font-family: 'Raleway', sans-serif;
+
+		thead {
+			text-transform: uppercase;
+		}
+
+		tr {
+			border-color: black;
+		}
+		td {
+			background-color: rgba(255, 255, 255, 0.364);
+		}
+
+		.table-title {
+			max-width: 70ch;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			text-transform: capitalize;
+		}
+
+		.centered {
+			text-align: center;
+		}
+	}
 }

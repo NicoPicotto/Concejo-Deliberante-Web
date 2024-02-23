@@ -1,11 +1,10 @@
 import React from 'react';
-
-import SearchLegislacion from '../components/SearchLegislacion/SearchLegislacion';
+import DigestoContainer from '../components/DigestoContainer/DigestoContainer';
 
 const Legislacion = () => {
 	return (
 		<div>
-			<SearchLegislacion />
+			<DigestoContainer />
 		</div>
 	);
 };

@@ -12,7 +12,7 @@ const options = {
 	autoplay: true,
 	loop: true,
 	style: {
-		width: '80%',
+		width: '60%',
 	},
 };
 
@@ -42,94 +42,12 @@ const SearchLegislacion = () => {
 						className='home-dots'
 						alt='separador puntos de colores'
 					/>
-					<div className='leg-text-container'>
-						<div>
-							Podés buscar la normativa que te interese por: <br />
-							<Tippy
-								animation={'scale'}
-								placement={'bottom'}
-								interactive={true}
-								content={<span>Por ejemplo: "Juventud"</span>}
-							>
-								<span className='tooltip-word'>Palabra clave</span>
-							</Tippy>
-							, por{' '}
-							<Tippy
-								animation={'scale'}
-								placement={'bottom'}
-								interactive={true}
-								content={<span>En formato AAAA. Por ejemplo: "2007"</span>}
-							>
-								<span className='tooltip-word'> año de sanción</span>
-							</Tippy>
-							, por{' '}
-							<Tippy
-								animation={'scale'}
-								placement={'bottom'}
-								interactive={true}
-								content={<span>Por ejemplo: "057" o "057/96"</span>}
-							>
-								<span className='tooltip-word'> número de ordenanza</span>
-							</Tippy>{' '}
-							o por{' '}
-							<Tippy
-								animation={'scale'}
-								placement={'bottom'}
-								interactive={true}
-								content={
-									<span>
-										Podés elegir entre los temas:
-										<br /> Organización Institucional
-										<br /> Empleo público
-										<br />
-										Documentación
-										<br />
-										Defensa Civil
-										<br />
-										Cultura y Educación
-										<br />
-										Presupuesto y Contrataciones
-										<br />
-										Contribuciones
-										<br /> Salud Pública
-										<br />
-										Promoción Social
-										<br />
-										Ejido Muncipal
-										<br />
-										Obras y servicios públicos
-										<br />
-										Higiene urbana
-										<br />
-										Ordenamiento urbano y edificación
-										<br />
-										Tránsito
-										<br />
-										Transporte público
-										<br />
-										Industrias y comercios
-										<br />
-										Bromatología
-										<br />
-										Medio Ambiente
-										<br />
-										Moralidad
-										<br />
-										Poder de policía
-									</span>
-								}
-							>
-								<span className='tooltip-word'> tema</span>
-							</Tippy>
-							.
-						</div>
-					</div>
 				</div>
 				<div className='leg-img-container'>
 					<Lottie {...options} />
 				</div>
 			</div>
-			<DigestoContainer search={searchTerm} />
+			<DigestoContainer />
 		</>
 	);
 };

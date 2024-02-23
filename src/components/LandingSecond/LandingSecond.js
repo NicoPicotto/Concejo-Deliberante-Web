@@ -25,8 +25,8 @@ const LandingSecond = () => {
 					de General Cabrera.
 				</h2>
 				<a
-					href='https://prueba.generalcabrera.gob.ar/wordpress/index.php/legislacion/'
-					target='_blank'
+					href='https://generalcabrera.gob.ar/index.php/legislacion/'
+					target='_blank' rel="noreferrer"
 				>
 					<Button className='leg-button'>Ver boletines</Button>
 				</a>

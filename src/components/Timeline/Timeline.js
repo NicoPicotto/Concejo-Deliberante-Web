@@ -13,7 +13,45 @@ const Timeline = () => {
 					className='vertical-timeline-element--work'
 					contentStyle={{ background: '#fff', color: 'black' }}
 					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-					date='2019 - Presente'
+					date='2023 - Presente'
+					iconStyle={{ background: '#febe39', color: '#fff' }}
+				>
+					<h3 className='vertical-timeline-element-title'>
+						Guillermo Cavigliasso
+					</h3>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>Concejales</h4>
+					<p>
+						Edgardo Tamburelli <br />
+						Mariana Musso
+						<br />
+						Verónica Huppi
+						<br />
+						Verónica Ponzio
+						<br />
+						María Eugenia Alovero
+						<br />
+						Agusto Agüero
+						<br />
+						Nicolás Sandrini
+					</p>
+					<br />
+					<h4 className='vertical-timeline-element-subtitle'>
+						Tribunal de cuentas
+					</h4>
+					<p>
+						Carlos R. Bossio
+						<br />
+						Gisele L. Gatica
+						<br />
+						Alejandro J. Massobrio
+					</p>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className='vertical-timeline-element--work'
+					contentStyle={{ background: '#fff', color: 'black' }}
+					contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+					date='2019 - 2023'
 					iconStyle={{ background: '#febe39', color: '#fff' }}
 				>
 					<h3 className='vertical-timeline-element-title'>Marcos G. Carasso</h3>

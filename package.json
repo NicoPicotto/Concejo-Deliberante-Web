@@ -19,6 +19,7 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "react-table": "^7.8.0",
     "react-vertical-timeline-component": "^3.5.2",
     "tippy.js": "^6.3.7",
     "web-vitals": "^2.1.4"
@@ -27,7 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch:sass": "sass --watch App.scss:App.css"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +51,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "sass": "^1.71.1",
     "style-loader": "^3.3.1"
   }
 }
