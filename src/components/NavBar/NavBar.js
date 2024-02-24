@@ -34,7 +34,7 @@ const NavBar = () => {
 							<NavLink eventKey='1'>
 								<Link to='/' variant='light' className='navbar-link-button'>
 									{' '}
-									HOME
+									INICIO
 								</Link>
 							</NavLink>
 							<NavLink eventKey='2'>

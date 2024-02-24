@@ -1,0 +1,58 @@
+@import '../../Theme.scss';
+
+.home-container {
+	display: flex;
+	padding: 2em;
+	align-items: center;
+	height: 65dvh;
+	width: 100vw;
+
+	.home-text-container {
+		display: flex;
+		width: 40%;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 2em;
+
+		@media (max-width: 768px) {
+			align-items: center;
+			text-align: center;
+			width: 90%;
+		}
+
+		.home-title {
+			font-family: $fuente-primaria;
+			font-size: 2em;
+			font-weight: bolder;
+			padding-bottom: 0.5em;
+
+			@media (max-width: 1024px) {
+				font-size: 1.1em;
+			}
+		}
+	}
+
+	.inputs-container {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+		width: 40%;
+
+		input {
+			padding-block: 5px;
+			padding-inline-start: 10px;
+			border-radius: 10px;
+		}
+
+		.inputs-btn {
+			background-color: $color-primario;
+			border: none;
+		}
+
+		.error {
+			p {
+				color: red;
+			}
+		}
+	}
+}

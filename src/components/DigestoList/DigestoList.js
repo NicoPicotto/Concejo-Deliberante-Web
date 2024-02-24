@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MdOutlineClose, MdOutlineCheck, MdFileDownload } from 'react-icons/md';
 
-const DigestoList = ({ filteredData }) => {
+const DigestoList = ({ filteredData, setSearchTerm, searchTerm }) => {
 	// const [searchTerm, setSearchTerm] = useState('');
 	// const [filteredData, setFilteredData] = useState([]);
 
@@ -31,12 +31,13 @@ const DigestoList = ({ filteredData }) => {
 
 	return (
 		<div className='digesto-list-container'>
-			{/* <input
+			<input
+				placeholder='Escribí acá para buscar'
+				className='leg-input'
 				type='text'
-				placeholder='Buscar...'
 				value={searchTerm}
 				onChange={(e) => setSearchTerm(e.target.value)}
-			/> */}
+			></input>
 			<table className='table'>
 				<thead>
 					<tr>
@@ -44,8 +45,8 @@ const DigestoList = ({ filteredData }) => {
 						<th>Tema</th>
 						<th>Número</th>
 						<th>Fecha</th>
-						<th>Vigencia</th>
-						<th>Descarga</th>
+						<th className='centered'>Vigencia</th>
+						<th className='centered'>Descarga</th>
 					</tr>
 				</thead>
 				<tbody>

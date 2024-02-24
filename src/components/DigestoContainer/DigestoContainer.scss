@@ -14,10 +14,20 @@
 .leg-landing-container {
 	display: flex;
 	padding: 2em;
-	height: 40vh;
+	height: 65vh;
 	width: 100vw;
 	background-color: white;
 	justify-content: space-around;
+
+	.home-text {
+		font-family: $fuente-primaria;
+		font-size: 1rem;
+		padding-bottom: 1em;
+
+		@media (max-width: 1024px) {
+			font-size: 0.75em;
+		}
+	}
 
 	@media (max-width: 768px) {
 		height: 50vh;
@@ -37,7 +47,7 @@
 
 		.leg-title {
 			font-family: $fuente-primaria;
-			font-size: 1.3em;
+			font-size: 2em;
 			font-weight: bolder;
 			margin-bottom: 0.5em;
 
@@ -52,26 +62,7 @@
 			}
 		}
 
-		.leg-input {
-			display: flex;
-			padding: 1em;
-			font-size: 0.9em;
-			font-family: $fuente-primaria;
-			border-radius: 1.5em;
-			color: black;
-			margin-bottom: 1em;
-			border: 1px solid $color-secundario;
-			transition: 0.2s;
-
-			@media (max-width: 768px) {
-				width: 90%;
-				font-size: 0.75em;
-			}
-
-			&:focus {
-				outline: 2px solid $color-secundario;
-			}
-		}
+		
 
 		.home-dots {
 			width: 30%;

@@ -1,0 +1,84 @@
+@import '../../Theme.scss';
+.admin-container {
+	width: 100vw;
+	display: flex;
+	padding: 2em;
+	gap: 10px;
+
+    .lista-noticias{
+        background-color: rgb(215, 215, 215);
+        padding-inline: 0.5em;
+        padding-block: 0.2em;
+        margin-top: 0.5em;
+    }
+
+	.wrapper {
+		width: 50%;
+		padding: 2em;
+		background-color: rgb(231, 231, 231);
+        height: fit-content;
+
+		h2 {
+			font-family: $fuente-primaria;
+		}
+
+		h4 {
+			margin-top: 20px;
+		}
+
+		.form-wrapper {
+			display: flex;
+			flex-direction: column;
+
+			input,
+			textarea {
+				margin-bottom: 20px;
+				padding-block: 5px;
+				padding-inline: 10px;
+			}
+
+			.checkbox {
+				align-self: baseline;
+				margin-top: 5px;
+			}
+
+			.error {
+				p {
+					margin-top: 10px;
+					color: red;
+				}
+			}
+
+			.success {
+				p {
+					margin-top: 10px;
+					color: green;
+				}
+			}
+		}
+
+		ul {
+			margin-top: 20px;
+
+			.list-item {
+				display: flex;
+				gap: 5px;
+				justify-content: space-between;
+				margin-bottom: 10px;
+				border-bottom: 1px solid rgb(175, 175, 175);
+
+				li {
+					max-width: 60ch; /* Ajusta este valor al ancho que prefieras */
+					white-space: nowrap; /* Asegura que el texto no baje de línea */
+					overflow: hidden; /* Oculta cualquier contenido que pase del contenedor */
+					text-overflow: ellipsis;
+				}
+
+				button {
+					background-color: darkred;
+					color: white;
+				}
+			}
+		}
+	}
+}

@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {
-	collection,
-	query,
-	getDocs,
-	limit,
-	orderBy,
-	where,
-} from 'firebase/firestore';
+import { collection, query, getDocs, orderBy } from 'firebase/firestore';
 import { db } from '../../firebase/firebaseConfig';
 import Loading from '../Loading/Loading';
 import DigestoList from '../DigestoList/DigestoList';
@@ -19,7 +12,7 @@ const options = {
 	autoplay: true,
 	loop: true,
 	style: {
-		width: '60%',
+		width: '80%',
 	},
 };
 
@@ -66,13 +59,10 @@ const DigestoContainer = () => {
 			<div className='leg-landing-container'>
 				<div className='leg-text-container'>
 					<h1 className='leg-title'>Buscador Digesto Municipal</h1>
-					<input
-						placeholder='Escribí acá para buscar'
-						className='leg-input'
-						type='text'
-						value={searchTerm}
-						onChange={(e) => setSearchTerm(e.target.value)}
-					></input>
+					<h2 className='home-text'>
+						Aquí podrás buscar todas las ordenanzas por título, tema, número y
+						fecha.
+					</h2>
 					<img
 						src={dots}
 						className='home-dots'
@@ -85,7 +75,11 @@ const DigestoContainer = () => {
 			</div>
 
 			<div className='leg-firebase-container'>
-				<DigestoList filteredData={filteredData} />
+				<DigestoList
+					filteredData={filteredData}
+					searchTerm={searchTerm}
+					setSearchTerm={setSearchTerm}
+				/>
 				{loading && <Loading />}
 			</div>
 		</>

@@ -6,6 +6,27 @@
 	flex-direction: column;
 	padding-block: 1em;
 
+	.leg-input {
+		display: flex;
+		padding: 1em;
+		font-size: 0.9em;
+		font-family: $fuente-primaria;
+		border-radius: 1.5em;
+		color: black;
+		margin-bottom: 1em;
+		border: 1px solid $color-secundario;
+		transition: 0.2s;
+
+		@media (max-width: 768px) {
+			width: 90%;
+			font-size: 0.75em;
+		}
+
+		&:focus {
+			outline: 2px solid $color-terciario;
+		}
+	}
+
 	.table {
 		font-size: small;
 		font-family: 'Raleway', sans-serif;

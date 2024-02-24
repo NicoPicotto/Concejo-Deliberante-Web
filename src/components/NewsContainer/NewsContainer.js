@@ -8,7 +8,7 @@ import { Button } from 'react-bootstrap';
 const NewsContainer = () => {
 	const [newsData, setNewsData] = useState([]);
 	const [loading, setLoading] = useState(false);
-	const [moreNews, setMoreNews] = useState(3);
+	const [moreNews, setMoreNews] = useState(6);
 
 	const loadMoreNews = () => {
 		setMoreNews(moreNews + 3);

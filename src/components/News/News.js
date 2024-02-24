@@ -2,17 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const News = ({ data }) => {
+	console.table(data.img);
 	return (
 		<div className='news-card-master'>
 			<Link to={`news/${data.id}`} style={{ textDecoration: 'none' }}>
-				<div
-					className='news-card-container'
-					style={{
-						backgroundImage: `url(${data.img})`,
-						backgroundSize: '100%',
-						backgroundRepeat: "no-repeat"
-					}}
-				>
+				<div className='news-card-container'>
+					<img src={data.img} alt={data.id} className='card-img' />
 					<div className='card-news-text'>
 						<h2 className='card-title'>{data.title}</h2>
 						<hr className='solid' />

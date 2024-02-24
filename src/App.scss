@@ -7,12 +7,13 @@
 @import './components/Footer/Footer.scss';
 @import './components/NewsDetailContainer/NewsDetailContainer.scss';
 @import './components/NewsDetail/NewsDetail.scss';
-@import './components/SearchLegislacion/SearchLegislacion.scss';
 @import './components/DigestoContainer/DigestoContainer.scss';
 @import './components/DigestoList/DigestoList.scss';
 @import './components/Digestos/Digestos.scss';
 @import './components/LandingSecond/LandingSecond.scss';
 @import './components/Timeline/Timeline.scss';
+@import './components/Login/LoginForm.scss';
+@import './components/AdminDashboard/AdminDashboard.scss';
 
 body {
 	margin: 0;
@@ -20,4 +21,5 @@ body {
 	overflow-x: hidden;
 	justify-content: center;
 	align-items: center;
+	scroll-behavior: smooth;
 }
