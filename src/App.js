@@ -27,7 +27,14 @@ const App = () => {
 						<Route path='/' element={<Home />} />
 						<Route path='/institucional' element={<Institucional />} />
 						<Route path='/legislacion' element={<Legislacion />} />
-						<Route path='/admin' element={<Dashboard />} />
+						<Route
+							path='/admin'
+							element={
+								<ProtectedRoutes>
+									<Dashboard />
+								</ProtectedRoutes>
+							}
+						/>
 						<Route path='/login' element={<Login />} />
 						<Route path='/news/:id' element={<NewsDetailView />} />
 						<Route path='*' element={<Error />} />
