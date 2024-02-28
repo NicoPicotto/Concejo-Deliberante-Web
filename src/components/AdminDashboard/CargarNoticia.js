@@ -12,6 +12,8 @@ import {
 	doc,
 } from 'firebase/firestore';
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 import { Button } from 'react-bootstrap';
 import { Spinner } from 'react-bootstrap';
 
@@ -25,6 +27,10 @@ const CargarNoticia = () => {
 	const [success, setSuccess] = useState('');
 
 	const [newsData, setNewsData] = useState([]);
+
+	const handleContentChange = (content) => {
+		setContent(content);
+	};
 
 	const uploadImage = async (file) => {
 		if (!file) return null;
@@ -137,11 +143,9 @@ const CargarNoticia = () => {
 						onChange={(e) => setSubtitle(e.target.value)}
 					/>
 					<label>Contenido</label>
-					<textarea
-						type='text'
+					<ReactQuill
 						value={content}
-						name='content'
-						onChange={(e) => setContent(e.target.value)}
+						onChange={(newValue, delta, source, editor) => setContent(newValue)}
 					/>
 					<label>Imagen</label>
 					<input
@@ -167,7 +171,7 @@ const CargarNoticia = () => {
 					)}
 				</div>
 			</form>
-			<div className="lista-noticias">
+			<div className='lista-noticias'>
 				<h4>Lista de noticias publicadas</h4>
 				<ul>
 					{newsData &&
