@@ -40,11 +40,11 @@ const Timeline = () => {
 						Tribunal de cuentas
 					</h4>
 					<p>
-						Carlos R. Bossio
+						Silvina Angeletti
 						<br />
-						Gisele L. Gatica
+						Pablo Giubergia
 						<br />
-						Alejandro J. Massobrio
+						Juliana Barrio
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement

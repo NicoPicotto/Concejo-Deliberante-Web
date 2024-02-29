@@ -26,11 +26,23 @@ const DigestoContainer = () => {
 	useEffect(() => {
 		const searchTermLower = searchTerm.toLowerCase();
 
-		const filtered = digestoData.filter(
+		// Primero, ordenamos los datos
+		const sortedData = [...digestoData].sort((a, b) => {
+			const regex = /\d+/;
+			const matchA = a.number?.match(regex);
+			const matchB = b.number?.match(regex);
+			const numberA = matchA ? parseInt(matchA[0], 10) : 0;
+			const numberB = matchB ? parseInt(matchB[0], 10) : 0;
+
+			return numberB - numberA;
+		});
+
+		// Luego, filtramos los datos ya ordenados
+		const filtered = sortedData.filter(
 			(item) =>
 				item.tema?.toLowerCase().includes(searchTermLower) ||
 				item.title?.toLowerCase().includes(searchTermLower) ||
-				item.number?.includes(searchTerm) || // Asumiendo que `number` es siempre una cadena
+				item.number?.includes(searchTerm) ||
 				item.keywords?.some((keyword) =>
 					keyword.toLowerCase().includes(searchTermLower)
 				)

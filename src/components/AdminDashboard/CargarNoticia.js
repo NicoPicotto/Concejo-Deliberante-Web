@@ -28,10 +28,6 @@ const CargarNoticia = () => {
 
 	const [newsData, setNewsData] = useState([]);
 
-	const handleContentChange = (content) => {
-		setContent(content);
-	};
-
 	const uploadImage = async (file) => {
 		if (!file) return null;
 

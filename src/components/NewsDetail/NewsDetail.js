@@ -18,7 +18,7 @@ const NewsDetail = ({ data }) => {
 				</Link>
 			</div>
 			<div className='news-img-container'>
-				<img src={data.img} />
+				<img src={data.img} alt={data.title} />
 			</div>
 		</div>
 	);

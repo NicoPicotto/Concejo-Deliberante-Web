@@ -20,7 +20,7 @@ const InstitucionalLanding = () => {
 					Se detallan los ciudadanos electos como intendentes y concejales
 					durante los mandatos correspondientes.
 				</h1>
-				<img src={dots} className='home-dots' />
+				<img src={dots} className='home-dots' alt="Puntos decorativos" />
 			</div>
 			<div className='home-img-container'>
 				<Lottie {...options} />
