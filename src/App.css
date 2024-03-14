@@ -834,6 +834,29 @@
   box-shadow: none !important;
 }
 
+.leg-button-2 {
+  background-color: #eb164d !important;
+  font-size: 0.9em;
+  font-family: "Raleway", sans-serif;
+  border: none !important;
+  transition: 0.2s;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 1.5em;
+}
+.leg-button-2:hover {
+  background-color: #b8143d !important;
+}
+.leg-button-2:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.leg-button-2:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .timeline-container {
   background-color: #85aad8;
   width: 100vw;

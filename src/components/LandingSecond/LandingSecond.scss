@@ -1,4 +1,10 @@
-.leg-button{
-    @include boton-primario;
-    width: fit-content;
+.leg-button {
+	@include boton-primario;
+	width: fit-content;
+}
+
+.leg-button-2 {
+	@include boton-primario;
+	width: fit-content;
+	margin-top: 1.5em;
 }
